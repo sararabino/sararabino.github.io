@@ -1,0 +1,12 @@
+.bio-bg {
+  background-image: url('/images/vigna_sfondo.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.bio-bg .hb-block, .bio-bg .container {
+  background: rgba(0,0,0,0.12);
+}
