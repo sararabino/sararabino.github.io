@@ -22,7 +22,7 @@ sections:
         education: ""
         interests: ""
     design:
-      css_class: "bio-bg hbx-bg-gradient"
+      css_class: "bio-bg"
       avatar:
         size: large
         shape: circle
