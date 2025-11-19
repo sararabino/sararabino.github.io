@@ -8,17 +8,13 @@ type: page
 Pictures from our family vineyard “Le Due Sorelle” (The Two Sisters). My family and I own a small vineyard called “Le Due Sorelle” (The Two Sisters). This is a passion project and a tribute to the Italian tradition of winemaking.
 
 ---
-### The Vineyard and Grapes
+## The Vineyard and Wines
 
-![Vigna Le Due Sorelle Grapes and Vineyard Rows](/uploads/Wine_2.jpg) 
+{{< figure src="/uploads/Wine_2.jpg" title="Vigna Le Due Sorelle Grapes and Vineyard Rows" >}}
 
-### The Bottle
+{{< figure src="/uploads/Wine_1.jpg" title="Vigna Le Due Sorelle Wine Bottle and glasses" >}}
 
-![Vigna Le Due Sorelle Wine Bottle and glasses](/uploads/Wine_1.jpg) 
-
-### Vineyard Landscape
-
-![Vigna Le Due Sorelle Landscape View](/uploads/Wine_3.jpg)
+{{< figure src="/uploads/Wine_3.jpg" title="Vigna Le Due Sorelle Landscape View" >}}
 
 ---
 
@@ -29,16 +25,16 @@ To calm my nerves.
 ---
 
 ### Drawing 1: Gourd and Leaves
-![Sketch of a gourd with leaves](/uploads/Sketch_1.jpeg)
+{{< figure src="/uploads/Sketch_1.jpeg" title="Sketch of a gourd with leaves" >}}
 
 ### Drawing 2: Man with Camera
-![Sketch of a man holding a camera](/uploads/Sketch_2.jpeg)
+{{< figure src="/uploads/Sketch_2.jpeg" title="Sketch of a man holding a camera" >}}
 
 ### Drawing 3: Frida Kahlo Inspired
-![Sketch inspired by Frida Kahlo](/uploads/Sketch_3.jpeg)
+{{< figure src="/uploads/Sketch_3.jpeg" title="Sketch inspired by Frida Kahlo" >}}
 
 ### Drawing 4: Bird and Flowers
-![Sketch of a bird and flowers](/uploads/Sketche_4.jpeg)
+{{< figure src="/uploads/Sketche_4.jpeg" title="Sketch of a bird and flowers" >}}
 
 ### Drawing 5: Street Scene
-![Sketch of a street scene](/uploads/Sketch_5.jpeg)
+{{< figure src="/uploads/Sketch_5.jpeg" title="Sketch of a street scene" >}}
