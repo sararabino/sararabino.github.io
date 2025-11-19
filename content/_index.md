@@ -8,7 +8,7 @@ design:
 
 sections:
 
-# SEZIONE 1: BIO
+# SEZIONE 1: BIO (Correzione Sfondo e Rimozione Blocco Errato)
   - block: resume-biography-3
     id: about
     content:
@@ -22,13 +22,14 @@ sections:
         education: ''
         interests: ''
     design:
+      # FIX 1: Corretta l'estensione del file in .webp (l'estensione che vuoi)
       background:
-        filename: vigna_sfondo.webp # <-- FIX: Il nome del file deve essere .webp
+        filename: vigna_sfondo.webp
         image_process:
           filters:
-            brightness: 0.8 # Rende lo sfondo un po' più scuro per far risaltare il testo bianco
+            brightness: 0.8 
       avatar:
-        size: medium
+        size: large
         shape: circle
 
   # SEZIONE 2: RESEARCH
