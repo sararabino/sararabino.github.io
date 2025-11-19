@@ -21,8 +21,12 @@ sections:
         about: ""
         education: ""
         interests: ""
-    design:
-      css_class: "bio-bg"
+   design:
+      background:
+        filename: vigna_sfondo.webp # <-- FIX: Il nome del file deve essere .webp
+        image_process:
+          filters:
+            brightness: 0.8 # Rende lo sfondo un po' più scuro per far risaltare il testo bianco
       avatar:
         size: large
         shape: circle
