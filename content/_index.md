@@ -22,7 +22,7 @@ sections:
         education: ""
         interests: ""
     design:
-      filename: vigna_sfondo.webp
+      css_class: "bio-bg hbx-bg-gradient"
       avatar:
         size: large
         shape: circle
