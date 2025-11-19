@@ -1,14 +1,14 @@
 main:
   - name: Bio
-    url: 'https://sararabino.github.io/#about'
+    url: '/#about'
     weight: 10
 
   - name: Research
-    url: 'https://sararabino.github.io/#research'
+    url: '/#research'
     weight: 20
 
   - name: Policy
-    url: 'https://sararabino.github.io/#policy'
+    url: '/#policy'
     weight: 40
 
   - name: Experience
@@ -16,7 +16,7 @@ main:
     weight: 35
 
   - name: Other
-    url: 'https://sararabino.github.io/#other'
+    url: '/#other'
     weight: 50
 
   - name: CV
