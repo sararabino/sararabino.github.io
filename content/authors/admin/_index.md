@@ -25,7 +25,7 @@ interests:
 
 education:
   - area: "PhD in Economics"
-    institution: "University of Zurich" 
+    institution: "University of Zurich"
     date_start: 2021-08-01
     date_end: ""
     summary: |
@@ -106,16 +106,16 @@ skills:
     items:
       - name: STATA
         percent: 90
-        icon: chart-bar 
+        icon: chart-bar
       - name: PYTHON & MATLAB
         percent: 75
-        icon: code-bracket 
+        icon: code-bracket
       - name: RSTUDIO
         percent: 50
         icon: arrow-trending-up
       - name: EVIEWS
         percent: 50
-        icon: cube-transparent 
+        icon: cube-transparent
 
 languages:
   - name: Italian
@@ -129,13 +129,21 @@ languages:
 
 awards:
   - title: UZH Candoc Grant
-    date: "2024-12-01" 
+    date: "2024-12-01"
+    icon: hero/trophy # Icona ripristinata
+    awarder: UZH
   - title: URPP Senior PhD Scholarship
     date: "2024-01-01"
+    icon: hero/currency-dollar # Icona ripristinata
+    awarder: URPP
   - title: URPP Early-stage PhD Scholarship
     date: "2023-01-01"
+    icon: hero/currency-dollar # Icona ripristinata
+    awarder: URPP
   - title: Bocconi Graduate Merit Award
     date: "2018-01-01"
+    icon: hero/academic-cap # Icona ripristinata
+    awarder: Bocconi University
 ---
 
 I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
