@@ -39,21 +39,9 @@ profiles:
   - icon: at-symbol
     url: 'mailto:sara.rabino@econ.uzh.ch'
     label: E-mail Me
-  - icon: brands/x
-    url: ''
-    label: X (Twitter)
-  - icon: brands/github
-    url: ''
-    label: GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/sara-rabino-53859a1b1
     label: LinkedIn
-  - icon: academicons/google-scholar
-    url: '' # [OPZIONALE]: Inserisci l'URL di Google Scholar
-    label: Google Scholar
-  - icon: academicons/orcid
-    url: '' # [OPZIONALE]: Inserisci l'URL ORCID
-    label: ORCID
 
 interests:
   - Behavioral and Labor Economics
