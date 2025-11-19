@@ -8,12 +8,15 @@ design:
 
 sections:
 
-# SEZIONE 1: BIO
-  - block: resume-biography-3
+# SEZIONE 1: BIO (Con testo ripristinato e sfondo corretto)
+  - block: resume-biography
     id: about
     content:
       username: admin
-      text: ''
+      text: |
+        Ciao! I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities. 
+        
+        I am currently visiting Harvard University, hosted by Katherine Coffman. Happy to connect!
       button:
         text: Download CV
         url: '/uploads/resume.pdf'
@@ -22,12 +25,11 @@ sections:
         education: ''
         interests: ''
     design:
-      # FIX 1: Usa il parametro image e il path relativo (senza il prefisso 'images/')
-      image: vigna_sfondo.webp
-      filters:
-        brightness: 0.8
-      css_class: hbx-bg-gradient # Lasciamo questo, a volte necessario
-
+      background:
+        filename: vigna_sfondo.webp
+        image_process:
+          filters:
+            brightness: 0
       avatar:
         size: medium
         shape: circle
