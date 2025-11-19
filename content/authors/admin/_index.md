@@ -154,8 +154,8 @@ skills:
       - name: RSTUDIO / EVIEWS
         description: ''
         percent: 50
-        icon: chart-line
-
+        icon: arrow-trending-up
+        
 languages:
   - name: English
     percent: 90
