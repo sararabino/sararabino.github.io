@@ -31,15 +31,17 @@ sections:
   - block: markdown
     id: research
     content:
-      title: '🔬 Research & Working Papers'
-      subtitle: ''
+      title: '🔬 Research '
+      subtitle: 'Work in proges'
       text: |
-        Use this area to speak to your mission and list your core areas of expertise (Behavioral, Labor, Gender Economics).
-      
-        **Making a Difference?** The Role of Social Impact in College Major Choice (WIP)
-        **Is Social Learning Gendered?** (WIP)
-        
-        Please reach out to collaborate 😃
+        Work in progress
+ 
+Making a Difference? The Role of Social Impact in College Major Choice
+Joint with Ana Brás-Monteiro and Samantha Stelnicki
+ 
+Is Social Learning Gendered?
+Joint with Kobbina Awuah, Stine Helmke, Rafael Hernández-Pachón, Urša Krenk, Daniela Santos Cárdenas, and David Yanagizawa-Drott
+ 
     design:
       columns: '1'
 
@@ -67,14 +69,14 @@ sections:
     design:
       view: card
 
-  # SEZIONE 5: POLICY & OUTREACH (ID: policy - per il link del menu)
+  # SEZIONE 5: POLICY (ID: policy - per il link del menu)
   - block: markdown
     id: policy
     content:
       title: '📢 Policy & Outreach'
       text: |
         **Think-Tank Tortuga**
-        I was part of the Think-Tank Tortuga. This section summarizes my contributions to policy reports and economic analysis articles.
+        I was part of the Think-Tank Tortuga. Tortuga is an Italian think-tank of Economics students and young researchers. We publish newspaper articles which focus on particular economic issues of current relevance, devoting particular attention to their policy implications. We collaborate with institutions and political parties in projects of policy drafting and economic analysis. [Click here to visit our official website](https://www.tortuga-econ.it/)
         
         [Link alla sezione Policy Reports che hai definito]
     design:
