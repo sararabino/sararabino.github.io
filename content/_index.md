@@ -28,7 +28,7 @@ sections:
           filters:
             brightness: 0.8
       avatar:
-        size: medium
+        size: large
         shape: circle
 
   # SEZIONE 2: RESEARCH
