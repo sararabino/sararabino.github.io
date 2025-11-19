@@ -23,7 +23,7 @@ sections:
         interests: ''
     design:
       background:
-        filename: vigna_sfondo.jpg # <-- DEVE essere qui il nome del tuo file BLURRED
+        filename: vigna_sfondo.webp # <-- DEVE essere qui il nome del tuo file BLURRED
         image_process:
           filters:
             brightness: 0.8
@@ -119,4 +119,4 @@ sections:
 
 ---
 
-Dopo aver salvato, attendi l'aggiornamento e controlla in modalità incognito. La visualizzazione **`view: card`** dovrebbe forzare la disposizione a due colonne.
+forzare la disposizione a due colonne.
