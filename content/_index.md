@@ -56,40 +56,53 @@ sections:
     design:
       view: card
 
-  # SEZIONE 4: UFFICIALI POLICY REPORTS (VISUAL BOXES - da popolare nella cartella 'reports')
-  - block: collection
-    id: reports
-    content:
-      title: 'Official Policy Reports'
-      filters:
-        folders:
-          - reports # Assumiamo una cartella reports in content/
-        exclude_featured: false
-      count: 5 # Mostra i 5 report ufficiali
-    design:
-      view: card # Visualizzazione a box con immagine
-      columns: 2
-
-  # SEZIONE 5: MEDIA ARTICLES (LINK DI TESTO STATICI)
+  # SEZIONE 4: POLICY - INTRO (Markdown - Testo introduttivo)
   - block: markdown
     id: policy
     content:
-      title: "Policy Articles (Media Contributions)"
+      title: "Policy" # Titolo principale grande
       text: |
-        I was part of the **Think-Tank Tortuga** (2019–2022).
-
-        ### Other Contributions (Simple Text Links)
-
-        * [2022] [If Minimum Wage Increases, So Do Undeclared Wages (Italian)](https://www.informazionesenzafiltro.it/se-il-salario-minimo-aumenta-anche-gli-stipendi-in-nero)
-        * [2022] [Working Poor: Italy Can't Count Them. Would Minimum Wage Help? (Italian)](https://www.informazionesenzafiltro.it/working-poor-italia-salario-minimo)
-        * [2022] [Not All Companies Can Afford the Minimum Wage (Italian)](https://www.informazionesenzafiltro.it/non-tutte-le-imprese-possono-permettersi-il-salario-minimo)
-        * [2020] [Unemployment in the Time of Coronavirus (Italian)](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)
-        * [2020] [How to Use European Resources to Attract Talent to Italy (Italian)](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
-        * [2019] [Women and Work: What the State Does (and Does Not Do) (Italian)](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
+        **Think-Tank Tortuga**
+        I was part of the Think-Tank Tortuga. Tortuga is an Italian think-tank of
+        Economics students and young researchers. We publish articles on economic
+        issues of current relevance, with particular attention to their policy
+        implications.
+        [Visit the official website](https://www.tortuga-econ.it/)
     design:
       columns: '1'
 
-  # SEZIONE 6: OTHER INTERESTS
+  # SEZIONE 5: POLICY - REPORTS (Collection - Box Visuali in due colonne)
+  - block: collection
+    id: reports # ID per i report (puoi rimuovere il titolo)
+    content:
+      title: '' # Titolo rimosso per far sembrare un'unica sezione con il blocco precedente
+      filters:
+        folders:
+          - reports # Preleva i report da content/reports/
+        exclude_featured: false
+      count: 5
+    design:
+      view: card # Visualizzazione a box con immagine
+      columns: 2 # Organizzato in due colonne
+
+  # SEZIONE 6: POLICY - OTHER CONTRIBUTIONS (Markdown - Lista di link)
+  - block: markdown
+    id: policy-articles # ID per gli articoli
+    content:
+      title: '' # Titolo rimosso per far sembrare un'unica sezione
+      text: |
+        ### Some Other Contributions (all in Italian):
+
+        * [2022] [If Minimum Wage Increases, So Do Undeclared Wages](https://www.informazionesenzafiltro.it/se-il-salario-minimo-aumenta-anche-gli-stipendi-in-nero)
+        * [2022] [Working Poor: Italy Can't Count Them. Would Minimum Wage Help?](https://www.informazionesenzafiltro.it/working-poor-italia-salario-minimo)
+        * [2022] [Not All Companies Can Afford the Minimum Wage](https://www.informazionesenzafiltro.it/non-tutte-le-imprese-possono-permettersi-il-salario-minimo)
+        * [2020] [Unemployment in the Time of Coronavirus](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)
+        * [2020] [How to Use European Resources to Attract Talent to Italy](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
+        * [2019] [Women and Work: What the State Does (and Does Not Do)](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
+    design:
+      columns: '1'
+
+  # SEZIONE 7: OTHER INTERESTS
   - block: markdown
     id: other
     content:
