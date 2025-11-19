@@ -175,18 +175,4 @@ sections:
         * [2019] [Women and Work: What the State Does (and Does Not Do)](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
     design:
       columns: "1"
-
-  # SEZIONE 6: OTHER INTERESTS
-  - block: markdown
-    id: other
-    content:
-      title: "Other Interests"
-      text: |
-        This section is dedicated to my hobbies outside of academia.
-
-        **Sketches:** Hand-drawn pencil sketches.  
-        **Wines:** Our family vineyard, *Le Due Sorelle*.
-    design:
-      columns: "1"
-
 ---
