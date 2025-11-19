@@ -6,27 +6,30 @@ type: landing
 design:
   spacing: '5rem'
 
+# Page sections
 sections:
-  # Teaching Section
+
+  # === TEACHING SECTION ===
   - block: resume-experience
     content:
       username: admin
-      category: Teaching      # Mostra solo le voci Teaching
+      category: Teaching    # Mostra solo le esperienze con category Teaching
     design:
+      title: "Teaching"    # Titolo grande per la sezione
       date_format: 'January 2006'
       is_education_first: false
-      section_title: "Teaching"  # Questo apparirà come titolo grande
 
-  # Other Experience Section
+  # === WORK / RESEARCH SECTION ===
   - block: resume-experience
     content:
       username: admin
-      exclude_category: Teaching  # Mostra tutte le voci tranne Teaching
+      category: Work        # Mostra solo le esperienze con category Work
     design:
+      title: "Work"
       date_format: 'January 2006'
       is_education_first: false
-      section_title: "Other Experience"
 
+  # === SKILLS SECTION ===
   - block: resume-skills
     content:
       title: Skills
@@ -34,11 +37,13 @@ sections:
     design:
       show_skill_percentage: false
 
+  # === AWARDS SECTION ===
   - block: resume-awards
     content:
       title: Awards
       username: admin
 
+  # === LANGUAGES SECTION ===
   - block: resume-languages
     content:
       title: Languages
