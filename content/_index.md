@@ -22,8 +22,7 @@ sections:
         education: ""
         interests: ""
     design:
-      background:
-        filename: stacked-peaks.svg # <-- DEVE essere qui il nome del tuo file BLURRED
+      css_class: hbx-bg-gradient
       avatar:
         size: large
         shape: circle
