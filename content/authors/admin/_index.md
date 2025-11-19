@@ -155,18 +155,6 @@ skills:
         description: ''
         percent: 50
         icon: chart-line
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Drawings
-        description: ''
-        percent: 70
-        icon: pencil-line
-      - name: Wines
-        description: ''
-        percent: 60
-        icon: glass-wine
 
 languages:
   - name: English
