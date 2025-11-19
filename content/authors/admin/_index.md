@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Sara Rabino
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Sara
+last_name: Rabino
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: she/her
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🧠
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,150 +23,164 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Student in Economics | Visiting Fellow at Harvard University
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Zürich
+    url: https://www.uzh.ch/en/
+  - name: Harvard University (Visiting Fellow)
+    url: https://www.harvard.edu/
+  - name: Barcelona School of Economics (Affiliate)
+    url: https://www.barcelonagse.eu/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:sara.rabino@econ.uzh.ch'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: ''
+    label: X (Twitter)
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: ''
+    label: GitHub
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/sara-rabino-53859a1b1
+    label: LinkedIn
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: '' # [OPZIONALE]: Inserisci l'URL di Google Scholar
+    label: Google Scholar
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: '' # [OPZIONALE]: Inserisci l'URL ORCID
+    label: ORCID
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Behavioral and Labor Economics
+  - Education and Gender Inequalities
+  - Policy & Outreach
+  - Quantitative Methods
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD in Economics
+    institution: University of Zürich
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2021-08-01
+    date_end: ''
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Supervisors: Ana Costa-Ramón, Roberto Weber. Currently visiting Harvard University.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+      url: ''
+  - area: MSc in Economic and Social Sciences
+    institution: Bocconi University
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+    date_start: 2018-09-01
+    date_end: 2021-04-01
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+      Final Thesis: Stuck in Reverse: Employer's Underinvestment in Training less Educated Women. Supervisor: Jérôme Adda.
+  - area: Exchange Program
+    institution: University College London
     icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+    date_start: 2018-01-01
+    date_end: 2018-06-01
+    summary: ''
+  - area: BSc in Economic and Social Sciences
+    institution: Bocconi University
+    icon: ""
+    date_start: 2015-09-01
+    date_end: 2018-10-01
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Supervisor: Tommaso Monacelli.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Organizer, UZH Doctoral Labor Seminar
+    company_name: University of Zürich
+    company_url: 'https://www.uzh.ch/'
     icon: ''
-    date_start: 2020-01-01
+    date_start: 2024-08-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Organization of the Doctoral Labor Seminar.
+  - position: Senior Fellow
+    company_name: Tortuga Think Tank
+    company_url: 'https://www.tortuga-econ.it/'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2019-08-01
+    date_end: 2022-08-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Involved in policy drafting and economic analysis, contributing to national reports and articles.
+  - position: Research Assistant
+    company_name: University of Zürich (for D. Yanagizawa-Drott and A.A. Brenge)
+    company_url: 'https://www.uzh.ch/'
+    icon: ''
+    date_start: 2023-08-01
+    date_end: 2023-12-31
+    summary: ''
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: STATA
         description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
+        percent: 90
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Python & MATLAB
         description: ''
-        percent: 85
-        icon: cloud
+        percent: 75
+        icon: code-bracket
+      - name: RSTUDIO / EVIEWS
+        description: ''
+        percent: 50
+        icon: chart-line
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+      - name: Drawings
         description: ''
         percent: 70
-        icon: book-open
+        icon: pencil-line
+      - name: Wines
+        description: ''
+        percent: 60
+        icon: glass-wine
 
 languages:
   - name: English
+    percent: 90
+  - name: Italian (Mothertongue)
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: French
+    percent: 60
+  - name: German
+    percent: 30
 
 # Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: UZH Candoc Grant
+    date: '2025-01-01'
+    awarder: UZH
     icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
+    summary: ''
+  - title: URPP Senior PhD Scholarship
+    date: '2024-01-01'
+    awarder: URPP
     icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+    summary: ''
+  - title: URPP Early-stage PhD Scholarship
+    date: '2023-01-01'
+    awarder: URPP
+    icon: hero/currency-dollar
+    summary: ''
+  - title: Bocconi Graduate Merit Award
+    date: '2018-01-01'
+    awarder: Bocconi University
     icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+    summary: ''
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
+
+I am currently visiting Harvard University, hosted by Katherine Coffman.
