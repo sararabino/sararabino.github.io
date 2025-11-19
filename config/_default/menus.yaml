@@ -1,6 +1,6 @@
 main:
   - name: Bio
-    url: '/' # Torna alla home (la landing)
+    url: '/'
     params:
       fragment: 'about'
     weight: 10
