@@ -1,12 +1,16 @@
+/* assets/css/custom.css o static/css/custom.css */
 .bio-bg {
   background-image: url('/images/vigna_sfondo.webp');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  /* altezza minima per vedere lo sfondo se la sezione è vuota */
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
+/* opzionale: aggiusta il contrasto del contenuto sopra lo sfondo */
 .bio-bg .hb-block, .bio-bg .container {
-  background: rgba(0,0,0,0.12);
+  /* esempio: leggera overlay scura per migliorare leggibilità */
+  background: rgba(0,0,0,0.15);
 }
