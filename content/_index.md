@@ -8,27 +8,27 @@ design:
 
 sections:
 
-  # SEZIONE 1: BIO
+# SEZIONE 1: BIO
   - block: resume-biography-3
     id: about
     content:
       username: admin
-      text: ""
+      text: ''
       button:
-        text: "Download CV"
-        url: "/uploads/resume.pdf"
+        text: Download CV
+        url: '/uploads/resume.pdf'
       headings:
-        about: ""
-        education: ""
-        interests: ""
-   design:
+        about: ''
+        education: ''
+        interests: ''
+    design:
       background:
         filename: vigna_sfondo.webp # <-- FIX: Il nome del file deve essere .webp
         image_process:
           filters:
             brightness: 0.8 # Rende lo sfondo un po' più scuro per far risaltare il testo bianco
       avatar:
-        size: large
+        size: medium
         shape: circle
 
   # SEZIONE 2: RESEARCH
