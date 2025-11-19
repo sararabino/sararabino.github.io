@@ -17,14 +17,14 @@ profiles:
     url: "https://www.linkedin.com/in/sara-rabino-53859a1b1"
     label: "LinkedIn"
 
-# Interests
+# === INTERESTS ===
 interests:
   - Behavioral Economics
   - Labor Economics
   - Gender Inequalities
   - Education
 
-# Education
+# === EDUCATION ===
 education:
   - area: "PhD in Economics"
     institution: "University of Zurich"  
@@ -51,19 +51,24 @@ education:
     date_end: 2018-10-01
     summary: ""
 
-# Teaching (nuova sezione sotto Education)
-teaching:
+# === EXPERIENCE (con Teaching come category) ===
+experience:
+  # Teaching
   - position: "Teaching Assistant Econometrics for Research Students, PhD"
     company_name: "University of Zurich"
+    category: "Teaching"
+
   - position: "Lecturer The Economics of Gender Norms, BA"
     company_name: "University of Zurich"
+    category: "Teaching"
 
-# Experience
-experience:
+  # Altre esperienze
   - position: "Lecturer"
     company_name: "University of Zurich"  
+
   - position: "Teaching Assistant"
     company_name: "University of Zurich"  
+
   - position: "Teaching Assistant"
     company_name: "Bocconi University"
 
@@ -82,7 +87,7 @@ experience:
     date_start: 2020-02-01
     date_end: 2020-09-30
 
-# Skills
+# === SKILLS ===
 skills:
   - name: Skills
     items:
@@ -99,7 +104,7 @@ skills:
         percent: 50
         icon: cube-transparent 
 
-# Languages
+# === LANGUAGES ===
 languages:
   - name: "Italian"
     percent: 100
@@ -108,7 +113,7 @@ languages:
   - name: "French"
     percent: 60
 
-# Awards
+# === AWARDS ===
 awards:
   - title: "UZH Candoc Grant"
     date: "2024-12-01"  
