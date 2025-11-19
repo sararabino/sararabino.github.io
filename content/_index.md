@@ -29,7 +29,7 @@ sections:
       css_class: hbx-bg-gradient # Lasciamo questo, a volte necessario
 
       avatar:
-        size: large
+        size: medium
         shape: circle
 
   # SEZIONE 2: RESEARCH
