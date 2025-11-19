@@ -1,0 +1,8 @@
+{{ $img := resources.Get "media/vigna_sfondo.webp" | images.Resize "2000x q75" }}
+<style>
+#about {
+  background-image: url('{{ $img.Permalink }}');
+  background-size: cover;
+  background-position: center center;
+}
+</style>
