@@ -24,7 +24,7 @@ sections:
     design:
       # FIX 1: Corretta l'estensione del file in .webp (l'estensione che vuoi)
       background:
-        filename: vigna_sfondo.webp
+        filename: images/vigna_sfondo.webp
         image_process:
           filters:
             brightness: 0.8 
