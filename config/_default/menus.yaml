@@ -1,24 +1,19 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#   desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
 main:
   - name: Bio
-    url: '#about' # L'ID standard per il widget Biografia
+    url: '#about'
     weight: 10
   - name: Research
-    url: '#projects' # Linka al widget Progetti/Ricerca
+    url: '#research' # Nuovo Anchor
     weight: 20
   - name: Teaching
-    url: '#experience' # Linka al widget Esperienza/Didattica
+    url: '#teaching' # Nuovo Anchor
     weight: 30
   - name: Policy
-    url: '#policy' # Anchor per la sezione Policy (da creare)
+    url: '#policy' # Nuovo Anchor
     weight: 40
   - name: Other
-    url: '#other' # Anchor per la sezione Hobbies/Altro (da creare)
+    url: '#other' # Nuovo Anchor
     weight: 50
   - name: CV
-    url: uploads/resume.pdf # Link diretto al file PDF (non scorre)
+    url: uploads/resume.pdf
     weight: 60
