@@ -23,14 +23,14 @@ sections:
         interests: ''
     design:
       background:
-        filename: vigna_sfondo.jpg # <-- Immagine di sfondo
+        filename: vigna_sfondo.jpg # <-- DEVE essere qui il nome del tuo file BLURRED
         image_process:
           filters:
-            brightness: 0.8 # Rende l'immagine leggermente più scura per leggibilità
+            brightness: 0.8
       avatar:
-        size: large
+        size: medium
         shape: circle
-      
+
   # SEZIONE 2: RESEARCH
   - block: markdown
     id: research
@@ -49,24 +49,33 @@ sections:
     design:
       columns: '1'
 
-  # SEZIONE 3: POLICY - INTRO (Markdown - Testo introduttivo)
+  # SEZIONE 3: TEACHING
+  - block: collection
+    id: teaching
+    content:
+      title: "Teaching Experience"
+      filters:
+        folders:
+          - teaching
+    design:
+      view: card
+
+  # SEZIONE 4: POLICY - INTRO (Markdown - Testo introduttivo)
   - block: markdown
     id: policy
     content:
-      title: "Policy" # Titolo principale grande
+      title: "Policy" 
       text: |
         **Think-Tank Tortuga**
         I was part of the Think-Tank Tortuga. Tortuga is an Italian think-tank of
-        Economics students and young researchers. We publish articles on economic
-        issues of current relevance, with particular attention to their policy
-        implications.
+        Economics students and young researchers. We publish newspaper articles which focus on particular economic issues of current relevance, devoting particular attention to their policy implications.
         [Visit the official website](https://www.tortuga-econ.it/)
     design:
       columns: '1'
 
-  # SEZIONE 4: POLICY - REPORTS (Collection - Box Visuali in due colonne)
+  # SEZIONE 5: POLICY - REPORTS (Collection - Box Visuali in due colonne)
   - block: collection
-    id: reports # L'ID 'reports' non ha bisogno di un link menu esplicito, è un blocco sotto 'policy'
+    id: reports
     content:
       title: '' 
       filters:
@@ -75,12 +84,12 @@ sections:
         exclude_featured: false
       count: 5
     design:
-      view: card 
-      columns: 2
-
-  # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS (Markdown - Lista di link)
+      view: card # FIX: Cambiato in 'card' per supportare meglio le colonne
+      columns: 2 # FIX: Questo ora dovrebbe funzionare
+      
+  # SEZIONE 6: POLICY - OTHER CONTRIBUTIONS (Markdown - Lista di link)
   - block: markdown
-    id: policy-articles # L'ID 'policy-articles' non ha bisogno di un link menu esplicito, è un blocco sotto 'policy'
+    id: policy-articles
     content:
       title: '' 
       text: |
@@ -89,13 +98,13 @@ sections:
         * [2022] [If Minimum Wage Increases, So Do Undeclared Wages](https://www.informazionesenzafiltro.it/se-il-salario-minimo-aumenta-anche-gli-stipendi-in-nero)
         * [2022] [Working Poor: Italy Can't Count Them. Would Minimum Wage Help?](https://www.informazionesenzafiltro.it/working-poor-italia-salario-minimo)
         * [2022] [Not All Companies Can Afford the Minimum Wage](https://www.informazionesenzafiltro.it/non-tutte-le-imprese-possono-permettersi-il-salario-minimo)
-        * [2020] [Unemployment in the Time of Coronavirus](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)\
+        * [2020] [Unemployment in the Time of Coronavirus](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)
         * [2020] [How to Use European Resources to Attract Talent to Italy](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
         * [2019] [Women and Work: What the State Does (and Does Not Do)](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
     design:
       columns: '1'
 
-  # SEZIONE 6: OTHER INTERESTS
+  # SEZIONE 7: OTHER INTERESTS
   - block: markdown
     id: other
     content:
@@ -110,4 +119,4 @@ sections:
 
 ---
 
-Sostituendo questi due file, la **barra del menu funzionerà**, lo **sfondo apparirà** nella sezione Bio, la sezione **Teaching sarà rimossa** e l'ordine nel menu sarà **Bio, Research, Policy, Experience, Other, CV**.
+Dopo aver salvato, attendi l'aggiornamento e controlla in modalità incognito. La visualizzazione **`view: card`** dovrebbe forzare la disposizione a due colonne.
