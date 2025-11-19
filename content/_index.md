@@ -56,43 +56,39 @@ sections:
     design:
       view: card
 
-  # SEZIONE 4: POLICY (Reports statici di Tortuga)
+  # SEZIONE 4: UFFICIALI POLICY REPORTS (VISUAL BOXES - da popolare nella cartella 'reports')
+  - block: collection
+    id: reports
+    content:
+      title: 'Official Policy Reports'
+      filters:
+        folders:
+          - reports # Assumiamo una cartella reports in content/
+        exclude_featured: false
+      count: 5 # Mostra i 5 report ufficiali
+    design:
+      view: card # Visualizzazione a box con immagine
+      columns: 2
+
+  # SEZIONE 5: MEDIA ARTICLES (LINK DI TESTO STATICI)
   - block: markdown
     id: policy
     content:
-      title: "Policy" # Titolo: mantenuto "Policy"
+      title: "Policy Articles (Media Contributions)"
       text: |
-        I was part of the **Think-Tank Tortuga**. Tortuga is an Italian think-tank of
-        Economics students and young researchers. We publish articles on economic
-        issues of current relevance, with particular attention to their policy
-        implications. [Visit the official website](https://www.tortuga-econ.it/)
+        I was part of the **Think-Tank Tortuga** (2019–2022).
 
-        ### Policy Reports I contributed to:
+        ### Other Contributions (Simple Text Links)
 
-        * [2023] [Introduciamo il salario minimo? (Italian)](https://www.tortuga-econ.it/2023/01/10/introduciamo-il-salario-minimo/)
-        * [2021] [Parità e occupazione in Europa (Italian)](https://www.tortuga-econ.it/2021/03/09/parita-e-occupazione-in-europa-strategie-analisi-azioni-verso-ununione-delluguaglianza/)
-        * [2020] [VIUS – Vita in un sorso (Italian)](https://www.tortuga-econ.it/2021/11/24/vius-vita-in-un-sorso-policy-report/)
-        * [2019] [Mamma ho preso l’aereo: la nuova fuga dei cervelli italiani (Italian)](https://www.tortuga-econ.it/2019/05/08/mamma-ho-preso-laereo-la-nuova-fuga-dei-cervelli-italiani-il-report/)
-        * [2019] [Game of Brains, 21st century Italian Emigration (English)](https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf)
-
+        * [2022] [If Minimum Wage Increases, So Do Undeclared Wages (Italian)](https://www.informazionesenzafiltro.it/se-il-salario-minimo-aumenta-anche-gli-stipendi-in-nero)
+        * [2022] [Working Poor: Italy Can't Count Them. Would Minimum Wage Help? (Italian)](https://www.informazionesenzafiltro.it/working-poor-italia-salario-minimo)
+        * [2022] [Not All Companies Can Afford the Minimum Wage (Italian)](https://www.informazionesenzafiltro.it/non-tutte-le-imprese-possono-permettersi-il-salario-minimo)
+        * [2020] [Unemployment in the Time of Coronavirus (Italian)](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)
+        * [2020] [How to Use European Resources to Attract Talent to Italy (Italian)](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
+        * [2019] [Women and Work: What the State Does (and Does Not Do) (Italian)](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
     design:
       columns: '1'
 
-  # SEZIONE 5: POLICY ARTICLES (Articoli pubblicati sui media - dinamici)
-  - block: collection
-    id: articles
-    content:
-      title: 'Policy Articles' # Ho chiamato la sezione dinamica "Policy Articles"
-      subtitle: 'Other Contributions in Italian Media'
-      filters:
-        folders:
-          - post # Mostra i contenuti dalla cartella content/post/
-        exclude_featured: false
-      count: 0 # Mostra tutti i risultati
-    design:
-      view: list # Mostra in formato lista (più ordinato)
-      columns: 1
-      
   # SEZIONE 6: OTHER INTERESTS
   - block: markdown
     id: other
