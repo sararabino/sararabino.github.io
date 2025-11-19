@@ -6,28 +6,39 @@ type: landing
 design:
   spacing: '5rem'
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
+  # Teaching Section
   - block: resume-experience
     content:
       username: admin
+      category: Teaching      # Mostra solo le voci Teaching
     design:
-      # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first?
       is_education_first: false
+      section_title: "Teaching"  # Questo apparirà come titolo grande
+
+  # Other Experience Section
+  - block: resume-experience
+    content:
+      username: admin
+      exclude_category: Teaching  # Mostra tutte le voci tranne Teaching
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
+      section_title: "Other Experience"
+
   - block: resume-skills
     content:
       title: Skills
       username: admin
     design:
       show_skill_percentage: false
+
   - block: resume-awards
     content:
       title: Awards
       username: admin
+
   - block: resume-languages
     content:
       title: Languages
