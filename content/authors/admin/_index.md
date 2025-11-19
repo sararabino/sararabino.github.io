@@ -17,9 +17,16 @@ profiles:
     url: "https://www.linkedin.com/in/sara-rabino-53859a1b1"
     label: "LinkedIn"
 
+# === NUOVO BLOCCO INTERESSI (Ripristinato) ===
+interests:
+  - Behavioral Economics
+  - Labor Economics
+  - Gender Inequalities
+  - Education
+
 education:
   - area: "PhD in Economics"
-    institution: "University of Zurich" 
+    institution: "University of Zurich"  
     date_start: 2021-08-01
     date_end: ""
     summary: |
@@ -45,14 +52,14 @@ education:
 
 experience:
   - position: "Lecturer"
-    company_name: "University of Zurich" 
+    company_name: "University of Zurich"  
   - position: "Teaching Assistant"
-    company_name: "University of Zurich" 
+    company_name: "University of Zurich"  
   - position: "Teaching Assistant"
     company_name: "Bocconi University"
 
   - position: "Research Assistant (for D. Yanagizawa-Drott and A.A. Brenge)"
-    company_name: "University of Zurich" 
+    company_name: "University of Zurich"  
     date_start: 2023-08-01
     date_end: 2023-12-31
 
@@ -66,27 +73,22 @@ experience:
     date_start: 2020-02-01
     date_end: 2020-09-30
 
-# === SKILLS AGGIORNATO CON ICONE E NOME SEMPLIFICATO ===
+# === SKILLS E LINGUE (rimanenti) ===
 skills:
-  - name: Skills # CORREZIONE: Nome sezione principale
+  - name: Skills
     items:
       - name: STATA
         percent: 90
-        icon: chart-bar # Icona reintrodotta
+        icon: chart-bar 
       - name: PYTHON & MATLAB
         percent: 75
-        icon: code-bracket # Icona reintrodotta
-      - name: RSTUDIO / EVIEWS
+        icon: code-bracket 
+      - name: RSTUDIO
         percent: 50
-        icon: chart-line # Icona reintrodotta
-  - name: Hobbies # Manteniamo il blocco Hobbies, ma lo nascondiamo con CSS se non necessario
-    items:
-      - name: Drawings
-        percent: 70
-        icon: pencil-line # Icona reintrodotta
-      - name: Wines
-        percent: 60
-        icon: glass-wine # Icona reintrodotta
+        icon: arrow-trending-up
+      - name: EVIEWS
+        percent: 50
+        icon: cube-transparent 
 
 languages:
   - name: "Italian"
@@ -95,12 +97,10 @@ languages:
     percent: 90
   - name: "French"
     percent: 60
-  - name: "German"
-    percent: 30
-
+    
 awards:
   - title: "UZH Candoc Grant"
-    date: "2024-12-01" 
+    date: "2024-12-01"  
   - title: "URPP Senior PhD Scholarship"
     date: "2024-01-01"
   - title: "URPP Early-stage PhD Scholarship"
@@ -108,7 +108,3 @@ awards:
   - title: "Bocconi Graduate Merit Award"
     date: "2018-01-01"
 ---
-
-I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
-
-I am currently visiting Harvard University, hosted by Katherine Coffman.
