@@ -6,9 +6,9 @@ last_name: Rabino
 
 pronouns: she/her
 
-# RIMOZIONE: Rimuove lo stato per togliere "PhD Student in Economics..." da sotto il nome.
+# RIMOZIONE: Rimuove lo stato per togliere "PhD Student in Economics..." e "Visiting Fellow..."
 # status:
-#   icon: "🎓"
+#   icon: "🏛️"
 
 superuser: true
 
@@ -48,19 +48,13 @@ education:
     summary: ""
 
 experience:
-  # TEACHING (MODIFICATO PER MOSTRARE SOLO UNIVERSITÀ E RUOLO SENZA SUPERVISIONE)
+  # TEACHING (MODIFICATO PER RIMUOVERE THESIS SUPERVISION E DATE TRA PARENTESI)
   - position: "Lecturer"
-    company_name: "University of Zurich" # Tolta ü. Le date (2024-Now) saranno nascoste dal formato dell'esperienza se non specificato.
-    date_start: 2024-09-01
-    date_end: ""
+    company_name: "University of Zurich" # Tolta ü
   - position: "Teaching Assistant"
-    company_name: "University of Zurich" # Tolta ü.
-    date_start: 2023-01-01
-    date_end: ""
+    company_name: "University of Zurich" # Tolta ü
   - position: "Teaching Assistant"
-    company_name: "Bocconi University" # Le date (2016-2020) saranno nascoste dal formato dell'esperienza se non specificato.
-    date_start: 2016-09-01
-    date_end: 2020-12-31
+    company_name: "Bocconi University"
 
   # RESEARCH ASSISTANT (mantenuto)
   - position: "Research Assistant (for D. Yanagizawa-Drott and A.A. Brenge)"
@@ -103,12 +97,13 @@ languages:
     percent: 30
 
 awards:
+  # FIX CRITICO: Data corretta per evitare l'errore di compilazione
   - title: "UZH Candoc Grant"
-    date: "2025"
+    date: "2024-12-01" 
   - title: "URPP Senior PhD Scholarship"
-    date: "2024"
+    date: "2024-01-01"
   - title: "URPP Early-stage PhD Scholarship"
-    date: "2023"
+    date: "2023-01-01"
   - title: "Bocconi Graduate Merit Award"
-    date: "2018"
+    date: "2018-01-01"
 ---
