@@ -6,10 +6,6 @@ last_name: Rabino
 
 pronouns: she/her
 
-# RIMOZIONE: Rimuove lo stato per togliere "PhD Student in Economics..." e "Visiting Fellow..."
-# status:
-#   icon: "🏛️"
-
 superuser: true
 
 profiles:
@@ -23,7 +19,7 @@ profiles:
 
 education:
   - area: "PhD in Economics"
-    institution: "University of Zurich" # CORREZIONE: Tolta la ü
+    institution: "University of Zurich" 
     date_start: 2021-08-01
     date_end: ""
     summary: |
@@ -48,17 +44,15 @@ education:
     summary: ""
 
 experience:
-  # TEACHING (MODIFICATO PER RIMUOVERE THESIS SUPERVISION E DATE TRA PARENTESI)
   - position: "Lecturer"
-    company_name: "University of Zurich" # Tolta ü
+    company_name: "University of Zurich" 
   - position: "Teaching Assistant"
-    company_name: "University of Zurich" # Tolta ü
+    company_name: "University of Zurich" 
   - position: "Teaching Assistant"
     company_name: "Bocconi University"
 
-  # RESEARCH ASSISTANT (mantenuto)
   - position: "Research Assistant (for D. Yanagizawa-Drott and A.A. Brenge)"
-    company_name: "University of Zurich" # Tolta ü
+    company_name: "University of Zurich" 
     date_start: 2023-08-01
     date_end: 2023-12-31
 
@@ -72,19 +66,27 @@ experience:
     date_start: 2020-02-01
     date_end: 2020-09-30
 
+# === SKILLS AGGIORNATO CON ICONE E NOME SEMPLIFICATO ===
 skills:
-  - name: "Technical Skills"
+  - name: Skills # CORREZIONE: Nome sezione principale
     items:
-      - name: "STATA"
+      - name: STATA
         percent: 90
-      - name: "PYTHON"
-        percent: 80
-      - name: "MATLAB"
-        percent: 70
-      - name: "RSTUDIO"
+        icon: chart-bar # Icona reintrodotta
+      - name: PYTHON & MATLAB
+        percent: 75
+        icon: code-bracket # Icona reintrodotta
+      - name: RSTUDIO / EVIEWS
         percent: 50
-      - name: "EVIEWS"
-        percent: 40
+        icon: chart-line # Icona reintrodotta
+  - name: Hobbies # Manteniamo il blocco Hobbies, ma lo nascondiamo con CSS se non necessario
+    items:
+      - name: Drawings
+        percent: 70
+        icon: pencil-line # Icona reintrodotta
+      - name: Wines
+        percent: 60
+        icon: glass-wine # Icona reintrodotta
 
 languages:
   - name: "Italian"
@@ -97,7 +99,6 @@ languages:
     percent: 30
 
 awards:
-  # FIX CRITICO: Data corretta per evitare l'errore di compilazione
   - title: "UZH Candoc Grant"
     date: "2024-12-01" 
   - title: "URPP Senior PhD Scholarship"
@@ -107,3 +108,7 @@ awards:
   - title: "Bocconi Graduate Merit Award"
     date: "2018-01-01"
 ---
+
+I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
+
+I am currently visiting Harvard University, hosted by Katherine Coffman.
