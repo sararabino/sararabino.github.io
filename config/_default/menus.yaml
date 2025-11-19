@@ -1,21 +1,21 @@
 main:
   - name: Bio
-    url: '#about'
+    url: '/#about' # FORZA IL RITORNO ALLA HOME, POI SCROLLA AD #about
     weight: 10
   - name: Research
-    url: '#projects'
+    url: '/#research' # FORZA IL RITORNO ALLA HOME e usa l'ID corretto
     weight: 20
   - name: Teaching
-    url: '#experience' # Questo link porterà all'inizio della sezione Experience sulla Home
+    url: '/#teaching' # FORZA IL RITORNO ALLA HOME e usa l'ID corretto
     weight: 30
   - name: Experience
     url: '/experience/' # Link alla pagina dedicata
     weight: 35
   - name: Policy
-    url: '#policy'
+    url: '/#policy' # FORZA IL RITORNO ALLA HOME
     weight: 40
   - name: Other
-    url: '#other'
+    url: '/#other' # FORZA IL RITORNO ALLA HOME
     weight: 50
   - name: CV
     url: uploads/resume.pdf
