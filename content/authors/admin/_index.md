@@ -49,56 +49,70 @@ education:
     date_end: 2018-10-01
     summary: ""
 
-# === BLOCCO WORK (CON INSEGNAMENTO INCLUSO) ===
+# === TEACHING (Comparirà come prima sezione Experience) ===
 work:
-  # --- NUOVI RUOLI DI TEACHING (Ripristinati) ---
+  # --- Teaching ---
   - position: Lecturer (The Economics of Gender Norms, BA)
     company_name: University of Zurich
     date_start: 2024-09-01
     date_end: ''
     summary: |
       Taught the undergraduate course "The Economics of Gender Norms".
+    category: Teaching
+
   - position: Teaching Assistant (Econometrics for Research Students, PhD)
     company_name: University of Zurich
     date_start: 2023-03-01
     date_end: ''
     summary: |
       Assisted the PhD course in Spring 2023 and 2024.
+    category: Teaching
+
   - position: Teaching Assistant (Computer Science, BA)
     company_name: Bocconi University
     date_start: 2016-09-01
     date_end: 2020-12-31
     summary: |
       Assisted the Bachelor's course "Computer Science".
+    category: Teaching
 
-  # --- RUOLI DI RICERCA ESISTENTI ---
+  # --- Other Work / Research ---
   - position: Organizer, UZH Doctoral Labor Seminar
     company_name: University of Zurich
     date_start: 2024-08-01
     date_end: ''
-    summary: |2-
+    summary: |
       Organization of the Doctoral Labor Seminar.
+    category: Work
+
   - position: Senior Fellow
     company_name: Tortuga Think Tank
     date_start: 2019-08-01
     date_end: 2022-08-31
     summary: |
       Involved in policy drafting and economic analysis, contributing to national reports and articles.
+    category: Work
+
   - position: Research Assistant (for D. Yanagizawa-Drott and A.A. Brenge)
     company_name: University of Zurich
     date_start: 2023-08-01
     date_end: 2023-12-31
     summary: ''
+    category: Work
+
   - position: Research Assistant (for T. Le Barbanchon and J. Adda)
     company_name: IGIER, Bocconi University
     date_start: 2020-09-01
     date_end: 2021-08-31
     summary: ''
+    category: Work
+
   - position: Research Assistant (for T. Nannicini)
     company_name: Bocconi University
     date_start: 2020-02-01
     date_end: 2020-09-30
     summary: ''
+    category: Work
 
 # === SKILLS ===
 skills:
@@ -130,20 +144,21 @@ languages:
 awards:
   - title: UZH Candoc Grant
     date: "2024-12-01"
-    icon: hero/trophy # Icona ripristinata
+    icon: hero/trophy
     awarder: UZH
   - title: URPP Senior PhD Scholarship
     date: "2024-01-01"
-    icon: hero/currency-dollar # Icona ripristinata
+    icon: hero/currency-dollar
     awarder: URPP
   - title: URPP Early-stage PhD Scholarship
     date: "2023-01-01"
-    icon: hero/currency-dollar # Icona ripristinata
+    icon: hero/currency-dollar
     awarder: URPP
   - title: Bocconi Graduate Merit Award
     date: "2018-01-01"
-    icon: hero/academic-cap # Icona ripristinata
+    icon: hero/academic-cap
     awarder: Bocconi University
+
 ---
 
 I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
