@@ -78,7 +78,43 @@ education:
     summary: |
       Supervisor: Tommaso Monacelli.
 
+# Nuova sezione WORK (inclusa Teaching)
 work:
+  # --- Teaching & Supervision Roles ---
+  - position: Lecturer (The Economics of Gender Norms, BA)
+    company_name: University of Zürich
+    company_url: 'https://www.uzh.ch/'
+    icon: ''
+    date_start: 2024-09-01
+    date_end: ''
+    summary: |
+      Taught the undergraduate course "The Economics of Gender Norms" (Fall 2024).
+  - position: Teaching Assistant (Econometrics for Research Students, PhD)
+    company_name: University of Zürich
+    company_url: 'https://www.uzh.ch/'
+    icon: ''
+    date_start: 2023-03-01
+    date_end: ''
+    summary: |
+      Assisted the PhD course in Spring 2023 and 2024.
+  - position: Thesis Supervision
+    company_name: University of Zürich
+    company_url: 'https://www.uzh.ch/'
+    icon: ''
+    date_start: 2023-01-01
+    date_end: ''
+    summary: |
+      Supervised students: Oliver Schwertfeger (2024), Elto Nathanaël Wolde (2024), Zhao Meng (2023), Hannah Talary (2023).
+  - position: Teaching Assistant (Computer Science, BA)
+    company_name: Bocconi University
+    company_url: 'https://www.unibocconi.it/'
+    icon: ''
+    date_start: 2016-09-01
+    date_end: 2020-12-31
+    summary: |
+      Assisted the Bachelor's course "Computer Science" (Fall 2016–2020).
+
+  # --- Research & Other Roles ---
   - position: Organizer, UZH Doctoral Labor Seminar
     company_name: University of Zürich
     company_url: 'https://www.uzh.ch/'
