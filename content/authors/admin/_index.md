@@ -17,17 +17,15 @@ profiles:
     url: "https://www.linkedin.com/in/sara-rabino-53859a1b1"
     label: "LinkedIn"
 
-# === INTERESTS ===
 interests:
   - Behavioral Economics
   - Labor Economics
   - Gender Inequalities
   - Education
 
-# === EDUCATION ===
 education:
   - area: "PhD in Economics"
-    institution: "University of Zurich"  
+    institution: "University of Zurich" 
     date_start: 2021-08-01
     date_end: ""
     summary: |
@@ -51,41 +49,56 @@ education:
     date_end: 2018-10-01
     summary: ""
 
-# === EXPERIENCE (con Teaching come category) ===
-experience:
-  # Teaching
-  - position: "Teaching Assistant Econometrics for Research Students, PhD"
-    company_name: "University of Zurich"
-    category: "Teaching"
+# === BLOCCO WORK (CON INSEGNAMENTO INCLUSO) ===
+work:
+  # --- NUOVI RUOLI DI TEACHING (Ripristinati) ---
+  - position: Lecturer (The Economics of Gender Norms, BA)
+    company_name: University of Zurich
+    date_start: 2024-09-01
+    date_end: ''
+    summary: |
+      Taught the undergraduate course "The Economics of Gender Norms".
+  - position: Teaching Assistant (Econometrics for Research Students, PhD)
+    company_name: University of Zurich
+    date_start: 2023-03-01
+    date_end: ''
+    summary: |
+      Assisted the PhD course in Spring 2023 and 2024.
+  - position: Teaching Assistant (Computer Science, BA)
+    company_name: Bocconi University
+    date_start: 2016-09-01
+    date_end: 2020-12-31
+    summary: |
+      Assisted the Bachelor's course "Computer Science".
 
-  - position: "Lecturer The Economics of Gender Norms, BA"
-    company_name: "University of Zurich"
-    category: "Teaching"
-
-  # Altre esperienze
-  - position: "Lecturer"
-    company_name: "University of Zurich"  
-
-  - position: "Teaching Assistant"
-    company_name: "University of Zurich"  
-
-  - position: "Teaching Assistant"
-    company_name: "Bocconi University"
-
-  - position: "Research Assistant (for D. Yanagizawa-Drott and A.A. Brenge)"
-    company_name: "University of Zurich"  
+  # --- RUOLI DI RICERCA ESISTENTI ---
+  - position: Organizer, UZH Doctoral Labor Seminar
+    company_name: University of Zurich
+    date_start: 2024-08-01
+    date_end: ''
+    summary: |2-
+      Organization of the Doctoral Labor Seminar.
+  - position: Senior Fellow
+    company_name: Tortuga Think Tank
+    date_start: 2019-08-01
+    date_end: 2022-08-31
+    summary: |
+      Involved in policy drafting and economic analysis, contributing to national reports and articles.
+  - position: Research Assistant (for D. Yanagizawa-Drott and A.A. Brenge)
+    company_name: University of Zurich
     date_start: 2023-08-01
     date_end: 2023-12-31
-
-  - position: "Research Assistant (for T. Le Barbanchon and J. Adda)"
-    company_name: "IGIER, Bocconi University"
+    summary: ''
+  - position: Research Assistant (for T. Le Barbanchon and J. Adda)
+    company_name: IGIER, Bocconi University
     date_start: 2020-09-01
     date_end: 2021-08-31
-
-  - position: "Research Assistant (for T. Nannicini)"
-    company_name: "Bocconi University"
+    summary: ''
+  - position: Research Assistant (for T. Nannicini)
+    company_name: Bocconi University
     date_start: 2020-02-01
     date_end: 2020-09-30
+    summary: ''
 
 # === SKILLS ===
 skills:
@@ -104,23 +117,27 @@ skills:
         percent: 50
         icon: cube-transparent 
 
-# === LANGUAGES ===
 languages:
-  - name: "Italian"
+  - name: Italian
     percent: 100
-  - name: "English"
+  - name: English
     percent: 90
-  - name: "French"
+  - name: French
     percent: 60
+  - name: German
+    percent: 30
 
-# === AWARDS ===
 awards:
-  - title: "UZH Candoc Grant"
-    date: "2024-12-01"  
-  - title: "URPP Senior PhD Scholarship"
+  - title: UZH Candoc Grant
+    date: "2024-12-01" 
+  - title: URPP Senior PhD Scholarship
     date: "2024-01-01"
-  - title: "URPP Early-stage PhD Scholarship"
+  - title: URPP Early-stage PhD Scholarship
     date: "2023-01-01"
-  - title: "Bocconi Graduate Merit Award"
+  - title: Bocconi Graduate Merit Award
     date: "2018-01-01"
 ---
+
+I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
+
+I am currently visiting Harvard University, hosted by Katherine Coffman.
