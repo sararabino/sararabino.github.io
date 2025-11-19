@@ -1,22 +1,32 @@
 main:
   - name: Bio
-    url: '/#about' # FORZA IL RITORNO ALLA HOME, POI SCROLLA AD #about
+    url: '/' # Torna alla home (la landing)
+    params:
+      fragment: 'about'
     weight: 10
+
   - name: Research
-    url: '/#research' # FORZA IL RITORNO ALLA HOME e usa l'ID corretto
+    url: '/'
+    params:
+      fragment: 'research'
     weight: 20
-  - name: Teaching
-    url: '/#teaching' # FORZA IL RITORNO ALLA HOME e usa l'ID corretto
-    weight: 30
-  - name: Experience
-    url: '/experience/' # Link alla pagina dedicata
-    weight: 35
+
   - name: Policy
-    url: '/#policy' # FORZA IL RITORNO ALLA HOME
+    url: '/'
+    params:
+      fragment: 'policy'
     weight: 40
+
+  - name: Experience
+    url: '/experience/'
+    weight: 35
+
   - name: Other
-    url: '/#other' # FORZA IL RITORNO ALLA HOME
+    url: '/'
+    params:
+      fragment: 'other'
     weight: 50
+
   - name: CV
-    url: uploads/resume.pdf
+    url: '/uploads/resume.pdf'
     weight: 60
