@@ -1,10 +1,10 @@
 ---
-title: ''
+title: ""
 date: 2022-10-24
 type: landing
 
 design:
-  spacing: '6rem'
+  spacing: "6rem"
 
 sections:
 
@@ -13,14 +13,14 @@ sections:
     id: about
     content:
       username: admin
-      text: ''
+      text: ""
       button:
-        text: Download CV
-        url: '/uploads/resume.pdf'
+        text: "Download CV"
+        url: "/uploads/resume.pdf"
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: ""
+        education: ""
+        interests: ""
     design:
       css_class: hbx-bg-gradient
       avatar:
@@ -36,60 +36,49 @@ sections:
       text: |
         **Work in Progress**
 
-        **Making a Difference? The Role of Social Impact in College Major Choice**
+        **Making a Difference? The Role of Social Impact in College Major Choice**  
         Joint with Ana Brás-Monteiro and Samantha Stelnicki
 
-        **Is Social Learning Gendered?**
+        **Is Social Learning Gendered?**  
         Joint with Kobbina Awuah, Stine Helmke, Rafael Hernández-Pachón, Urša Krenk,
         Daniela Santos Cárdenas, and David Yanagizawa-Drott
     design:
-      columns: '1'
+      columns: "1"
 
-  # SEZIONE 3: TEACHING
-  - block: collection
-    id: teaching
-    content:
-      title: "Teaching Experience"
-      filters:
-        folders:
-          - teaching
-    design:
-      view: card
-
-  # SEZIONE 4: POLICY - INTRO (Markdown - Testo introduttivo)
+  # SEZIONE 3: POLICY - INTRO (Markdown)
   - block: markdown
     id: policy
     content:
-      title: "Policy" # Titolo principale grande
+      title: "Policy"
       text: |
-        **Think-Tank Tortuga**
+        **Think-Tank Tortuga**  
         I was part of the Think-Tank Tortuga. Tortuga is an Italian think-tank of
         Economics students and young researchers. We publish articles on economic
         issues of current relevance, with particular attention to their policy
-        implications.
+        implications.  
         [Visit the official website](https://www.tortuga-econ.it/)
     design:
-      columns: '1'
+      columns: "1"
 
-  # SEZIONE 5: POLICY - REPORTS (Collection - Box Visuali in due colonne)
+  # SEZIONE 4: POLICY - REPORTS (Collection a 2 colonne forzate)
   - block: collection
-    id: reports # ID per i report (puoi rimuovere il titolo)
+    id: reports
     content:
-      title: '' # Titolo rimosso per far sembrare un'unica sezione con il blocco precedente
+      title: ""
       filters:
         folders:
-          - reports # Preleva i report da content/reports/
+          - reports
         exclude_featured: false
       count: 5
     design:
-      view: card # Visualizzazione a box con immagine
-      columns: 2 # Organizzato in due colonne
+      view: article-grid
+      columns: 2
 
-  # SEZIONE 6: POLICY - OTHER CONTRIBUTIONS (Markdown - Lista di link)
+  # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS (Markdown)
   - block: markdown
-    id: policy-articles # ID per gli articoli
+    id: policy-articles
     content:
-      title: '' # Titolo rimosso per far sembrare un'unica sezione
+      title: ""
       text: |
         ### Some Other Contributions (all in Italian):
 
@@ -100,9 +89,9 @@ sections:
         * [2020] [How to Use European Resources to Attract Talent to Italy](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
         * [2019] [Women and Work: What the State Does (and Does Not Do)](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
     design:
-      columns: '1'
+      columns: "1"
 
-  # SEZIONE 7: OTHER INTERESTS
+  # SEZIONE 6: OTHER INTERESTS
   - block: markdown
     id: other
     content:
@@ -110,9 +99,9 @@ sections:
       text: |
         This section is dedicated to my hobbies outside of academia.
 
-        **Sketches:** Hand-drawn pencil sketches.
+        **Sketches:** Hand-drawn pencil sketches.  
         **Wines:** Our family vineyard, *Le Due Sorelle*.
     design:
-      columns: '1'
+      columns: "1"
 
 ---
