@@ -9,7 +9,7 @@ design:
 sections:
 
 # SEZIONE 1: BIO
-  - block: resume-biography-2
+  - block: resume-biography-3
     id: about
     content:
       username: admin
