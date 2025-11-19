@@ -21,8 +21,8 @@ To calm my nerves.
 
 ---
 
-{{< figure src="/uploads/Sketch_1.jpeg" >}}
-{{< figure src="/uploads/Sketch_2.jpeg" >}}
-{{< figure src="/uploads/Sketch_3.jpeg" >}}
-{{< figure src="/uploads/Sketch_4.jpeg" >}}
-{{< figure src="/uploads/Sketch_5.jpeg" >}}
+{{< figure src="/uploads/Sketch_1.jpg" >}}
+{{< figure src="/uploads/Sketch_2.jpg" >}}
+{{< figure src="/uploads/Sketch_3.jpg" >}}
+{{< figure src="/uploads/Sketch_4.jpg" >}}
+{{< figure src="/uploads/Sketch_5.jpg" >}}
