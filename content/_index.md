@@ -35,7 +35,7 @@ sections:
       subtitle: 'Work in proges'
       text: |
         Work in progress
- 
+ :
 Making a Difference? The Role of Social Impact in College Major Choice
 Joint with Ana Brás-Monteiro and Samantha Stelnicki
  
