@@ -14,16 +14,13 @@ pronouns: she/her
 
 # Status emoji
 status:
-  icon: 🧠
+  icon: 🎓
 
 # Is this the primary user of the site?
 superuser: true
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
-
-# Role/position/tagline
-role: PhD Student in Economics | Visiting Fellow at Harvard University
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
