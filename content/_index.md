@@ -28,7 +28,7 @@ sections:
           filters:
             brightness: 0.8 # Rende l'immagine leggermente più scura per leggibilità
       avatar:
-        size: medium
+        size: large
         shape: circle
       
   # SEZIONE 2: RESEARCH
