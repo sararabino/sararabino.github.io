@@ -24,7 +24,7 @@ highlight_name: true
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Zürich
+  - name: University of Zurich
     url: https://www.uzh.ch/en/
   - name: Harvard University (Visiting Fellow)
     url: https://www.harvard.edu/
