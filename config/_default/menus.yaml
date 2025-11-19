@@ -2,18 +2,23 @@ main:
   - name: Bio
     url: '#about'
     weight: 10
+
   - name: Research
-    url: '#research' # Nuovo Anchor
+    url: '#research'
     weight: 20
+
   - name: Teaching
-    url: '#teaching' # Nuovo Anchor
+    url: '#teaching'
     weight: 30
+
   - name: Policy
-    url: '#policy' # Nuovo Anchor
+    url: '#policy'
     weight: 40
+
   - name: Other
-    url: '#other' # Nuovo Anchor
+    url: '#other'
     weight: 50
+
   - name: CV
-    url: uploads/resume.pdf
+    url: '/uploads/resume.pdf'
     weight: 60
