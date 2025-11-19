@@ -1,20 +1,14 @@
 main:
   - name: Bio
-    url: '/'
-    params:
-      fragment: 'about'
+    url: '/#about'
     weight: 10
 
   - name: Research
-    url: '/'
-    params:
-      fragment: 'research'
+    url: '/#research'
     weight: 20
 
   - name: Policy
-    url: '/'
-    params:
-      fragment: 'policy'
+    url: '/#policy'
     weight: 40
 
   - name: Experience
@@ -22,9 +16,7 @@ main:
     weight: 35
 
   - name: Other
-    url: '/'
-    params:
-      fragment: 'other'
+    url: '/#other'
     weight: 50
 
   - name: CV
