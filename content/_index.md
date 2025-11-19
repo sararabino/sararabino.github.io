@@ -23,7 +23,7 @@ sections:
         interests: ""
     design:
       background:
-        filename: assets/media/vigna_sfondo.webp # <-- DEVE essere qui il nome del tuo file BLURRED
+        filename: stacked-peaks.svg # <-- DEVE essere qui il nome del tuo file BLURRED
       avatar:
         size: large
         shape: circle
