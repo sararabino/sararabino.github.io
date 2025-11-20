@@ -16,11 +16,9 @@
     font-weight: 700 !important;
 }
 
-/* 2. FIX TITOLO SOTTOLISTA (Applicazione della logica 'reports' alla sezione 'articles') */
-#policy-articles [class*="text-"] {
-    /* Imposta la dimensione richiesta dall'utente */
+/* 2. FIX TITOLO SOTTOLISTA (Forza la dimensione fissa 1.30rem sul sottotitolo H3) */
+#policy-articles h3 {
+    /* Questo selettore è abbastanza specifico da battere le classi del tema */
     font-size: 1.30rem !important; 
-    
-    /* Mantiene il grassetto */
     font-weight: 700 !important;
 }
