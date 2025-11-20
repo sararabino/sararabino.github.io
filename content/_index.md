@@ -69,11 +69,11 @@ sections:
     text: |
       ### Policy Reports I contributed to:
 
-      * [2022] Introduciamo il salario minimo?[Italian](https://www.tortuga-econ.it/2023/01/10/introduciamo-il-salario-minimo/)
-      * [2021] Parità e occupazione in Europa[Italian](https://www.tortuga-econ.it/2021/03/09/parita-e-occupazione-in-europa-strategie-analisi-azioni-verso-ununione-delluguaglianza/)
-      * [2020] VIUS – Vita in un sorso[Italian](https://www.tortuga-econ.it/2021/11/24/vius-vita-in-un-sorso-policy-report/)
-      * [2019] Mamma ho preso l’aereo: la nuova fuga dei cervelli italiani[Italian](https://www.tortuga-econ.it/2019/05/08/mamma-ho-preso-laereo-la-nuova-fuga-dei-cervelli-italiani-il-report/)
-      * [2019] Game of Brains, 21st century Italian Emigration[English](https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf)
+      * [2022] Introduciamo il salario minimo?-[(Italian)](https://www.tortuga-econ.it/2023/01/10/introduciamo-il-salario-minimo/)
+      * [2021] Parità e occupazione in Europa-[(Italian)](https://www.tortuga-econ.it/2021/03/09/parita-e-occupazione-in-europa-strategie-analisi-azioni-verso-ununione-delluguaglianza/)
+      * [2020] VIUS – Vita in un sorso-[(Italian)](https://www.tortuga-econ.it/2021/11/24/vius-vita-in-un-sorso-policy-report/)
+      * [2019] Mamma ho preso l’aereo: la nuova fuga dei cervelli italiani-[(Italian)](https://www.tortuga-econ.it/2019/05/08/mamma-ho-preso-laereo-la-nuova-fuga-dei-cervelli-italiani-il-report/)
+      * [2019] Game of Brains, 21st century Italian Emigration-[(English)](https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf)
     columns: "1"
 
 # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
