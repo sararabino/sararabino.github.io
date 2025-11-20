@@ -22,21 +22,17 @@ sections:
     headings:
       about: ''
       education: ''
-      interests: ''
-  design:
+      interests: 'Interests'
+    design:
       background:
-        filename: peakpx.jpg # Immagine per Light Mode (quella che usi ora)
-        dark_filename: peakpx_dark.jpg # <-- NUOVA RIGA: Immagine per Dark Mode
+        filename: vigna_sfondo.webp # Immagine per Light Mode (quella che usi ora)
+        dark_filename: vigna_sfondo_dark.webp # <-- NUOVA RIGA: Immagine per Dark Mode
         image_process:
           filters:
             brightness: 0.8 # Lasciamo questa per la light mode
       avatar:
         size: large
         shape: circle
-      
-      # NUOVE OPZIONI PER L'OVERLAY DARK
-      overlay_color: '#000' # Colore overlay (nero)
-      overlay_alpha: 0.2    # Trasparenza in modalità giorno (leggero)
     # Avatar customization
     avatar:
       size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
