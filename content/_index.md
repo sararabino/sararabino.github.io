@@ -25,26 +25,19 @@ sections:
       education: ''
       interests: ''
   
-  # AGGIORNAMENTO DEL BLOCCO DESIGN
+  # BLOCCO DESIGN MODIFICATO CON SFONDO IMMAGINE
   design:
-    # ATTENZIONE: ho rimosso 'css_class: hbx-bg-gradient' per evitare conflitti.
-    # Se vuoi mantenere il gradiente come overlay sull'immagine, fammelo sapere.
-    
-    # 1. IMPOSTAZIONI DELLO SFONDO
     background:
-      # Sostituisci con il nome del tuo file. Il percorso 'img/' assume che sia in /static/img/
+      # Percorso dell'immagine: assume che sia in /static/img/vigna_sfondo.jpg
       image: 'img/vigna_sfondo.jpg' 
-      
-      # Regola come l'immagine deve essere visualizzata
-      image_size: 'cover'       # Assicura che l'immagine copra l'intera area
+      # Impostazioni di visualizzazione:
+      image_size: 'cover'       # Copre l'intera sezione
       image_position: 'center'  # Centra l'immagine
-      image_parallax: true      # (Opzionale) Aggiunge un effetto parallasse
-      
-      # OPZIONALE: Aggiunge un overlay nero per rendere il testo più leggibile
+      image_parallax: true      # Effetto parallasse (opzionale)
+      # Overlay per leggibilità del testo (nero, 50% trasparente)
       overlay_color: '#000'
-      overlay_alpha: 0.5 # 50% di trasparenza
-      
-    # 2. ALTRE IMPOSTAZIONI DI DESIGN
+      overlay_alpha: 0.5 
+    
     avatar:
       size: large
       shape: circle
