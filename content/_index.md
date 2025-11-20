@@ -4,36 +4,34 @@ date: 2022-10-24
 type: landing
 
 design:
-  spacing: "6rem"
+  spacing: "3rem"
 
 sections:
 
-# SEZIONE 1: BIO
-- block: resume-biography
+# SEZIONE 1: BIO (con sfondo immagine e testo)
+- block: resume-biography-3 # NESSUNO SPAZIO O TAB PRIMA DEL TRATTINO
   id: about
   content:
+    # Choose a user profile to display (a folder name within `content/authors/`)
     username: admin
-    text: |
-      Ciao! I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral labor economics, with a focus on education and gender inequalities. 
-      
-      I am currently visiting Harvard University, hosted by Katherine Coffman. Happy to connect!
+    text: ''
+    # Show a call-to-action button under your biography? (optional)
     button:
       text: Download CV
-      url: '/uploads/resume.pdf'
+      url: uploads/resume.pdf
     headings:
       about: ''
       education: ''
-      interests: 'Interests'
+      interests: ''
   design:
     background:
-      filename: vigna_sfondo.webp
-      image_process:
-        filters:
-          brightness: 0.8
+      image:
+        filename: stacked-peaks.svg
+    # Avatar customization
     avatar:
-      size: large
-      shape: circle
-
+      size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+      shape: circle # Options: circle (default), square, rounded
+    
 # SEZIONE 2: RESEARCH (Allineamento Corretto)
 - block: markdown
   id: research
