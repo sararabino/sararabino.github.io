@@ -43,34 +43,6 @@ work:
     summary: |
       Assisted the Bachelor's course "Computer Science".
 
-  - position: Organizer, UZH Doctoral Labor Seminar
-    company_name: University of Zurich
-    date_start: 2024-08-01
-    date_end: ''
-    summary: |2-
-      Organization of the Doctoral Labor Seminar.
-  - position: Senior Fellow
-    company_name: Tortuga Think Tank
-    date_start: 2019-08-01
-    date_end: 2022-08-31
-    summary: |
-      Involved in policy drafting and economic analysis, contributing to national reports and articles.
-  - position: Research Assistant (for D. Yanagizawa-Drott and A.A. Brenge)
-    company_name: University of Zurich
-    date_start: 2023-08-01
-    date_end: 2023-12-31
-    summary: ''
-  - position: Research Assistant (for T. Le Barbanchon and J. Adda)
-    company_name: IGIER, Bocconi University
-    date_start: 2020-09-01
-    date_end: 2021-08-31
-    summary: ''
-  - position: Research Assistant (for T. Nannicini)
-    company_name: Bocconi University
-    date_start: 2020-02-01
-    date_end: 2020-09-30
-    summary: ''
-
 skills:
   - name: Skills
     items:
