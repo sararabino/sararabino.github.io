@@ -9,7 +9,7 @@ main:
     url: '/#policy'
     weight: 30
   - name: Teaching
-    url: '/experience/'
+    url: '/teaching/'
     weight: 40
   - name: Other
     url: '/other/' # FIX: Ora punta alla pagina dedicata
