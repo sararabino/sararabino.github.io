@@ -1,21 +1,25 @@
 /* File: assets/scss/custom.scss */
 
+/* 1. Definisce lo sfondo sull'elemento SECTION esterno */
 .sezione-vigna {
-    /* Il percorso deve essere relativo alla cartella /static (che diventa la radice /) */
-    background-image: url("/img/vigna_sfondo.jpg"); 
-    
-    /* Regole per la visualizzazione dello sfondo */
-    background-size: cover; /* Copre l'intera area */
-    background-position: center; /* Centra l'immagine */
-    background-attachment: fixed; /* Per l'effetto parallasse */
-    
-    /* Overlay semi-trasparente per migliorare la leggibilità del testo */
-    position: relative; 
-    z-index: 1; /* Assicura che l'overlay sia dietro il contenuto */
+    /* Il percorso deve essere relativo alla cartella /static */
+    background-image: url("/img/vigna_sfondo.jpg") !important; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    /* Aggiungiamo il padding esterno qui, se necessario, ma i blocchi interni lo gestiscono meglio */
 }
 
-/* Regola per l'overlay (solo se l'immagine è troppo chiara) */
-/* Questa è una tecnica CSS avanzata che potrebbe non essere necessaria se hai usato l'overlay YAML */
+/* 2. OVERRIDE DEL CONTENITORE INTERNO BIANCO */
+/* Forziamo il div interno che contiene il testo a essere trasparente */
+/* Questo risolve il problema della copertura bianca */
+.sezione-vigna .home-section-bg {
+    background: transparent !important;
+    /* Rimuove qualsiasi sfondo o colore di default del tema */
+}
+
+/* 3. Overlay (opzionale, ma consigliato per leggibilità) */
+/* Se vuoi un overlay nero/semitrasparente: */
 .sezione-vigna::before {
     content: '';
     position: absolute;
@@ -23,6 +27,16 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Nero con 50% di opacità */
-    z-index: -1; 
+    background-color: rgba(0, 0, 0, 0.4); /* 40% di opacità */
+    z-index: 0; /* Assicura che l'overlay sia sopra lo sfondo ma sotto il testo */
+}
+
+/* Assicurati che il testo sia visibile se lo sfondo è scuro */
+.sezione-vigna .block-title, 
+.sezione-vigna .block-subtitle,
+.sezione-vigna p,
+.sezione-vigna h1, 
+.sezione-vigna h2 {
+    color: white !important;
+    z-index: 1;
 }
