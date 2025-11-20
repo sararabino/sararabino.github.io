@@ -3,7 +3,7 @@ title: '' # FIX: Il titolo principale della pagina sarà vuoto
 type: page
 ---
 
-# Wine
+### Wine
 
 Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
 
@@ -15,7 +15,7 @@ Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
 
 ---
 
-# Sketches
+### Sketches
 
 To calm my nerves.
 
