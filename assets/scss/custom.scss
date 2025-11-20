@@ -1,42 +1,20 @@
 /* File: assets/scss/custom.scss */
 
-/* 1. Definisce lo sfondo sull'elemento SECTION esterno */
+/* 1. Definiamo lo sfondo sull'elemento SECTION esterno */
 .sezione-vigna {
-    /* Il percorso deve essere relativo alla cartella /static */
     background-image: url("/img/vigna_sfondo.jpg") !important; 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed;
-    /* Aggiungiamo il padding esterno qui, se necessario, ma i blocchi interni lo gestiscono meglio */
 }
 
-/* 2. OVERRIDE DEL CONTENITORE INTERNO BIANCO */
-/* Forziamo il div interno che contiene il testo a essere trasparente */
-/* Questo risolve il problema della copertura bianca */
+/* 2. FORZIAMO LA TRASPARENZA SUI CONTENITORI INTERNI */
+
 .sezione-vigna .home-section-bg {
-    background: transparent !important;
-    /* Rimuove qualsiasi sfondo o colore di default del tema */
+    background-color: transparent !important;
 }
 
-/* 3. Overlay (opzionale, ma consigliato per leggibilità) */
-/* Se vuoi un overlay nero/semitrasparente: */
-.sezione-vigna::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* 40% di opacità */
-    z-index: 0; /* Assicura che l'overlay sia sopra lo sfondo ma sotto il testo */
-}
-
-/* Assicurati che il testo sia visibile se lo sfondo è scuro */
-.sezione-vigna .block-title, 
-.sezione-vigna .block-subtitle,
-.sezione-vigna p,
-.sezione-vigna h1, 
-.sezione-vigna h2 {
-    color: white !important;
-    z-index: 1;
+/* 3. Aggiungiamo anche un override per il contenitore di padding interno per sicurezza */
+.sezione-vigna .resume-biography {
+    background-color: transparent !important;
 }
