@@ -1,23 +1,30 @@
 /* File: assets/scss/custom.scss */
 
-/* 1. Definiamo lo sfondo sul contenitore esterno <section> (che ha la classe .sezione-vigna) */
+/* 1. Applica lo sfondo sul tag <section> esterno */
 .sezione-vigna {
     background-image: url("/img/vigna_sfondo.jpg") !important; 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed;
-    z-index: 1; /* Assicuriamo che l'immagine sia uno strato inferiore */
+    /* Aggiungiamo un z-index per stabilire una base */
     position: relative;
+    z-index: 1; 
 }
 
-/* 2. OVERRIDE DEFINITIVO DEL BIANCO SUL CONTENITORE INTERNO */
-/* Sostituiamo .home-section-bg con la classe che abbiamo trovato nello screenshot */
-.sezione-vigna > div.resume-biography {
-    /* Forziamo la trasparenza sul div interno che contiene il testo */
+/* 2. OVERRIDE DEFINITIVO DELLO SFONDO AZZURRO/BIANCO SUI CONTENITORI INTERNI */
+/* Neutralizziamo tutti i possibili contenitori interni impliciti nel blocco resume-biography */
+.sezione-vigna > div,
+.sezione-vigna .resume-biography {
+    /* Forziamo la trasparenza su tutti i contenitori di contenuto interni */
+    background: transparent !important;
     background-color: transparent !important;
+    box-shadow: none !important; /* Rimuoviamo eventuali ombre che potrebbero contenere colore */
+    /* Assicuriamo che l'elemento stesso non abbia z-index che lo porti sopra lo sfondo */
+    z-index: 5; /* Il contenuto deve essere sopra l'overlay, che è sopra l'immagine */
+    position: relative; 
 }
 
-/* 3. Overlay e Testo (per la leggibilità) */
+/* 3. Aggiungi l'overlay e il testo bianco (essenziale per vedere il contenuto) */
 .sezione-vigna::before {
     content: '';
     position: absolute;
@@ -25,13 +32,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay scuro */
-    z-index: 2; /* Posizionato sopra lo sfondo (z-index: 1) */
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 3; /* Overlay sopra l'immagine (z-index: 1) */
 }
 
-/* Rendi il testo chiaro e visibile sopra l'overlay (z-index: 3) */
+/* 4. Rendi il testo bianco per leggibilità */
 .sezione-vigna * { 
     color: white !important;
-    z-index: 3;
-    position: relative; 
+    z-index: 4; /* Testo sopra l'overlay (z-index: 3) */
 }
