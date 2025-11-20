@@ -9,11 +9,3 @@
     /* Riduce lo spazio verticale interno generato dalle classi di dimensione */
     line-height: 1.2 !important; 
 }
-/* CSS per forzare i link delle risorse (PDF/Slides) su una singola riga */
-
-/* Questo targetta il contenitore dei link sotto il titolo */
-.pub-list-item .flex-wrap {
-    white-space: nowrap !important; /* Forza il contenuto a rimanere su una sola riga */
-    overflow: hidden !important;    /* Nasconde il contenuto in eccesso */
-    text-overflow: ellipsis !important; /* Aggiunge i puntini di sospensione (...) */
-}
