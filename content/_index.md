@@ -8,7 +8,7 @@ design:
 
 sections:
 
-# SEZIONE 1: BIO (con sfondo immagine e testo)
+# SEZIONE 1: About (con sfondo immagine e testo)
 - block: resume-biography-3 # NESSUNO SPAZIO O TAB PRIMA DEL TRATTINO
   id: about
   content:
