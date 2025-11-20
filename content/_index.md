@@ -24,8 +24,8 @@ sections:
       education: ''
       interests: ''
   design:
-    # Apply a gradient background
-    css_class: sezione-vigna
+    # Aggiungiamo bg-transparent direttamente alle classi di Tailwind!
+    css_class: sezione-vigna bg-transparent dark:bg-transparent
     # Avatar customization
     avatar:
       size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
