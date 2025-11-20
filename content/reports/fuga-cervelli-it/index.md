@@ -6,16 +6,11 @@ authors:
 publication_types: ["6"] # Policy Report
 abstract: "This report analyzes the causes and consequences of the 'brain drain' phenomenon in Italy, proposing concrete policies to attract and retain young talent."
 summary: "This report analyzes the causes and consequences of the 'brain drain' phenomenon in Italy, proposing concrete policies to attract and retain young talent."
-
-# ABILITA LA CITAZIONE ACCADEMICA
 citation: true
-
 image:
   featured_image: copertina.jpg
   caption: 'Immagine di copertina del report'
-
 links:
-  # NUOVO LINK ALL'ARTICOLO/FONTE
   - name: Articolo/Fonte Tortuga
     url: "https://www.tortuga-econ.it/2019/05/08/mamma-ho-preso-laereo-la-nuova-fuga-dei-cervelli-italiani-il-report/"
     icon: link
