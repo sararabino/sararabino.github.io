@@ -24,8 +24,9 @@ sections:
       education: ''
       interests: 'Interests'
     design:
-      background:
-        filename: vigna_sfondo.jpg
+  background:
+    image:
+      filename: peakpx.jpg
 
     # Avatar customization
     avatar:
