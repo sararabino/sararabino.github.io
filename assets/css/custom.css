@@ -9,12 +9,13 @@
     /* Riduce lo spazio verticale interno generato dalle classi di dimensione */
     line-height: 1.2 !important; 
 }
-/* CSS per rendere il titolo del widget "Policy Reports" più piccolo (H3 size) */
-
-#reports .section-title,
-#reports h2 {
-    /* Imposta la dimensione standard per un sottotitolo H3 (circa 1.25rem) */
-    font-size: 1.25rem !important; 
-    /* Assicura che sia grassetto, tipico di un sottotitolo */
+/* CSS per ridurre la dimensione del titolo del widget 'Policy Reports' */
+#reports h2,
+#reports h3,
+#reports div.text-3xl { 
+    /* Imposta la dimensione desiderata (1.75rem è più piccolo di 3xl) */
+    font-size: 1.75rem !important; 
+    
+    /* Mantiene il grassetto */
     font-weight: 700 !important;
 }
