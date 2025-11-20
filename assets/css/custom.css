@@ -1,11 +1,11 @@
-/* Sovrascrittura definitiva della dimensione del nome Sara Rabino */
-#about .display-name {
-    /* Imposta una dimensione visibilmente più piccola (es. 2.2rem) */
+/* CSS per controllare la dimensione del nome "Sara Rabino" */
+
+/* Forzare la dimensione sul tag H1 all'interno del blocco Bio */
+#about .display-name,
+#about h1 {
+    /* Il valore 2.2rem è solo un esempio. Scegli una dimensione ridotta. */
     font-size: 2.2rem !important; 
     
-    /* Riduce l'altezza della riga per evitare un eccessivo spazio bianco */
+    /* Riduce lo spazio verticale interno generato dalle classi di dimensione */
     line-height: 1.2 !important; 
-    
-    /* Opzionale: riduce il margine superiore se necessario */
-    margin-top: 0.5rem !important;
 }
