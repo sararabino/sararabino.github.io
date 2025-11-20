@@ -9,39 +9,27 @@ design:
 sections:
 
 # SEZIONE 1: BIO (con sfondo immagine e testo)
-- block: resume-biography
-  id: about
-  content:
-    username: admin
-    text: |
-      Ciao! I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities. 
-
-      I am currently visiting Harvard University, hosted by Katherine Coffman. Happy to connect!
-    button:
-      text: Download CV
-      url: '/uploads/resume.pdf'
-    headings:
-      about: ''
-      education: ''
-      interests: ''
-  design:
-    # CLASSE AGGIUNTA PER IL PADDING RESPONSIVE (MOBILE)
-    css_class: 'p-4 sm:p-6 md:p-8' 
-
-    section_size: 'xxl' 
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+      text: ''
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+      headings:
+        about: ''
+        education: ''
+        interests: ''
+    design:
+      # Apply a gradient background
+      css_class: hbx-bg-gradient
+      # Avatar customization
+      avatar:
+        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: circle # Options: circle (default), square, rounded
     
-    background:
-      image:
-        url: '/img/vigna_sfondo.jpg' 
-      image_size: 'cover'       
-      image_position: 'center'  
-      image_parallax: true      
-      overlay_color: '#000'
-      overlay_alpha: 0.5 
-    avatar:
-      size: large
-      shape: circle
-
 # SEZIONE 2: RESEARCH
 - block: markdown
   id: research
