@@ -4,25 +4,24 @@ date: 2021-01-01
 authors:
   - Tortuga Think Tank
 publication_types: ["6"] # Policy Report
-abstract: "Analisi delle strategie e delle azioni per la parità di genere e l'occupazione in Europa."
-summary: "Analisi delle strategie e delle azioni per la parità di genere e l'occupazione in Europa."
-
-# ABILITA LA CITAZIONE ACCADEMICA
+abstract: "The report explores strategies and actions needed to achieve gender parity and employment equality across Europe, highlighting key policy recommendations to bridge existing gaps and promote equality in the labor market."
+summary: "The report explores strategies and actions needed to achieve gender parity and employment equality across Europe, highlighting key policy recommendations to bridge existing gaps and promote equality in the labor market."
 citation: true
-
 image:
   featured_image: copertina.jpg
   caption: 'Immagine di copertina del report'
-
 links:
-  # NUOVO LINK ALL'ARTICOLO/FONTE
   - name: Articolo/Fonte Tortuga
     url: "https://www.tortuga-econ.it/2021/03/09/parita-e-occupazione-in-europa-strategie-analisi-azioni-verso-ununione-delluguaglianza/"
     icon: link
     icon_pack: fas
   - name: PDF (Full)
-    url: "https://www.tortuga-econ.it/wp-content/uploads/2021/03/Parita%CC%80-e-occupazione-in-Europa-Policy-Report-Tortuga-compressed.pdf"
+    url: "https://www.tortuga-econ.it/wp-content/uploads/2021/03/Guida-Gender-Parity_Mar21_digitale.pdf"
     icon: file-pdf
     icon_pack: fas
+  - name: Slides
+    url: "https://www.slideshare.net/secret/2eS1LEWZnEIPdp"
+    icon: presentation
+    icon_pack: fas
 ---
-Questo report è stato pubblicato da Tortuga Think Tank nel 2021.
+This report was published by Tortuga Think Tank in 2021.
