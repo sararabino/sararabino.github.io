@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'PhD Student in Economics at the University of Zurich, specializing in behavioral and labor economics and gender inequalities.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -29,6 +29,13 @@ marketing:
   verification:
     google: "7hcGu2_Ht0po1PXFyc4bEZvqrU70DPcaRrwZI6yZXlo"
     baidu: ''
+
+# Sezione AGGIUNTA per caricare le icone Font Awesome (fas)
+icon:
+  pack: fas # Imposta Font Awesome Solid come pacchetto di icone principale
+  pack_brands: fab # Carica Font Awesome Brands (per icone social)
+  pack_academic: ai # Carica Academicons (per icone Google Scholar/ORCID)
+# Fine Sezione Aggiunta
 
 # Site header
 header:
