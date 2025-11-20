@@ -1,0 +1,8 @@
+/* Custom CSS per ridurre la dimensione del nome nella sezione Bio */
+.display-name {
+    /* Imposta una dimensione personalizzata (es. 2.2rem è significativamente più piccolo del default) */
+    font-size: 2.2rem !important; 
+    
+    /* Regola opzionale: riduce il margine in alto */
+    margin-top: 0.5rem !important; 
+}
