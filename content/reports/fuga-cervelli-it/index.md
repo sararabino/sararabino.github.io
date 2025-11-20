@@ -14,19 +14,14 @@ links:
   - name: Articolo/Fonte Tortuga
     url: "https://www.tortuga-econ.it/2019/05/08/mamma-ho-preso-laereo-la-nuova-fuga-dei-cervelli-italiani-il-report/"
     icon: link
-    icon_pack: fas
   - name: PDF (Full)
     url: "https://www.tortuga-econ.it/wp-content/uploads/2020/03/fuga-di-cervelli-brai-drain-tortuga-5.pdf"
-    icon: file-pdf
-    icon_pack: fas
-  # LINK ALLE SLIDES (Riaggiunto)
+    icon: document
   - name: Slides
     url: "https://www.slideshare.net/secret/p4vgLtDxPedNxk"
-    icon: presentation
-    icon_pack: fas
+    icon: document-chart-bar
   - name: Video
     url: "https://www.youtube.com/watch?v=IULqRUBGll4"
-    icon: video
-    icon_pack: fas
+    icon: video-camera # Heroicon
 ---
 This report was published by Tortuga Think Tank in 2019.
