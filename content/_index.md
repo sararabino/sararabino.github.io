@@ -26,7 +26,7 @@ sections:
   design:
     background:
       image:
-        filename: vigna_sfondo.jpg
+        filename: peakpx.jpg
       # Opzioni di visualizzazione (mantienile per l'effetto parallasse se funziona)
       image_size: 'cover'       
       image_position: 'center'  
