@@ -66,8 +66,7 @@ sections:
 - block: collection
   id: reports
   content:
-    title: ''
-    subtitle: "Policy Reports I contributed to:"
+    title: "Policy Reports I contributed to:"
     filters:
       folders:
         - reports
