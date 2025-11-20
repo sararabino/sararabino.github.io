@@ -1,32 +1,17 @@
 /* File: assets/scss/custom.scss */
 
-/* 1. APPLICAZIONE DELLO SFONDO E NEUTRALIZZAZIONE DEL COLORE BASE DEL TEMA SUL TAG SECTION */
+/* Metodo nucleare: usa la proprietà 'theme' nel CSS per iniettare l'immagine */
 .sezione-vigna {
-    /* Forziamo l'immagine */
-    background-image: url("/img/vigna_sfondo.jpg") !important; 
-    background-size: cover !important; 
-    background-position: center !important; 
-    background-attachment: fixed !important;
+    /* Questa regola è la più forte per applicare lo sfondo */
+    background: url("/img/vigna_sfondo.jpg") center/cover fixed !important; 
     
-    /* Neutralizziamo qualsiasi background-color di base o gradiente del tema */
-    background-color: transparent !important; 
-    
-    position: relative !important;
-    z-index: 1 !important; 
+    /* Assicuriamo che gli elementi interni non abbiano colore */
+    > div, .resume-biography {
+        background-color: transparent !important;
+    }
 }
 
-/* 2. OVERRIDE DEI CONTENITORI INTERNI (RESUME-BIOGRAPHY E SIMILI) */
-/* Questo assicura che qualsiasi elemento interno con sfondo bianco sia trasparente */
-.sezione-vigna > div,
-.sezione-vigna .resume-biography {
-    background: transparent !important;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    position: relative !important;
-    z-index: 5 !important;
-}
-
-/* 3. Overlay e Testo (per la leggibilità) */
+/* Regole per il testo e l'overlay */
 .sezione-vigna::before {
     content: '';
     position: absolute;
@@ -37,8 +22,6 @@
     background-color: rgba(0, 0, 0, 0.5); 
     z-index: 3;
 }
-
-/* 4. Rendi il testo chiaro */
 .sezione-vigna * { 
     color: white !important;
     z-index: 4; 
