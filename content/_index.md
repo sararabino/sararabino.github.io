@@ -26,7 +26,7 @@ sections:
     design:
   background:
     image:
-      filename: peakpx.jpg
+      filename: stacked-peaks.svg
 
     # Avatar customization
     avatar:
