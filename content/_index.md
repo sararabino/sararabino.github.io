@@ -24,10 +24,16 @@ sections:
       about: ''
       education: ''
       interests: ''
-    design:
-      # Apply a gradient background
-      css_class: hbx-bg-gradient
-  
+  design:
+    background:
+      # CORREZIONE: Uso di 'url' con il percorso completo
+      image:
+        url: '/img/vigna_sfondo.jpg' 
+      image_size: 'cover'       
+      image_position: 'center'  
+      image_parallax: true      
+      overlay_color: '#000'
+      overlay_alpha: 0.5 
     avatar:
       size: large
       shape: circle
