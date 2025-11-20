@@ -26,10 +26,6 @@ sections:
     design:
       background:
         filename: peakpx.jpg
-        dark_filename: peakpx_dark.jpg
-        image_process:
-          filters:
-            brightness: 0.8
     # Avatar customization
     avatar:
       size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
