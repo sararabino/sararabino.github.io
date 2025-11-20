@@ -6,10 +6,10 @@
     line-height: 1.2 !important; 
 }
 
-/* CSS per ridurre la dimensione del titolo del widget 'Policy Reports' */
-#reports div.text-3xl,
-#reports div.text-2xl { 
-    /* FIX: Targettiamo la classe esatta 'text-3xl' per la dimensione */
+/* CSS per risolvere il problema del titolo troppo grande nella sezione REPORTS */
+/* Questo selettore targetta qualsiasi elemento con una classe 'text-' all'interno di #reports */
+#reports [class*="text-"] { 
+    /* Imposta la dimensione desiderata (H3/Sottotitolo) */
     font-size: 1.75rem !important; 
     
     /* Mantiene il grassetto */
