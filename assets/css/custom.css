@@ -10,7 +10,7 @@
 /* Questo selettore targetta qualsiasi elemento con una classe 'text-' all'interno di #reports */
 #reports [class*="text-"] { 
     /* Imposta la dimensione desiderata (H3/Sottotitolo) */
-    font-size: 1.75rem !important; 
+    font-size: 1.10rem !important; 
     
     /* Mantiene il grassetto */
     font-weight: 700 !important;
