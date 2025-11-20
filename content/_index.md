@@ -56,25 +56,25 @@ sections:
       I was part of the **Think-Tank Tortuga**. Tortuga is an Italian think-tank of
       Economics students and young researchers. We publish articles on economic
       issues of current relevance, with particular attention to their policy
-      implications.  
+      implications. We collaborate with institutions and political parties in projects of policy drafting and economic analysis.
+   
       [Visit the official website](https://www.tortuga-econ.it/)
   design:
     columns: "1"
 
-# SEZIONE 4: POLICY - REPORTS (Collection a 2 colonne)
-- block: markdown
-  id: reports
-  content:
-    title: ""
-    text: |
-      ### Policy Reports I contributed to:
-
-      * [2022] Introduciamo il salario minimo?-[(Italian)](https://www.tortuga-econ.it/2023/01/10/introduciamo-il-salario-minimo/)
-      * [2021] Parità e occupazione in Europa-[(Italian)](https://www.tortuga-econ.it/2021/03/09/parita-e-occupazione-in-europa-strategie-analisi-azioni-verso-ununione-delluguaglianza/)
-      * [2020] VIUS – Vita in un sorso-[(Italian)](https://www.tortuga-econ.it/2021/11/24/vius-vita-in-un-sorso-policy-report/)
-      * [2019] Mamma ho preso l’aereo: la nuova fuga dei cervelli italiani-[(Italian)](https://www.tortuga-econ.it/2019/05/08/mamma-ho-preso-laereo-la-nuova-fuga-dei-cervelli-italiani-il-report/)
-      * [2019] Game of Brains, 21st century Italian Emigration-[(English)](https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf)
-    columns: "1"
+# SEZIONE 4: POLICY - REPORTS (Collection a lista/citazione)
+  - block: collection
+    id: reports
+    content:
+      title: '' 
+      filters:
+        folders:
+          - reports
+        exclude_featured: false
+      count: 5
+    design:
+      view: list # FIX: Usiamo 'list' o 'citation' (list è spesso più pulito)
+      columns: 1 # Rimuoviamo la griglia forzata a 2 colonne
 
 # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
 - block: markdown
