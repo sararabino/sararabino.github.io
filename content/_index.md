@@ -54,7 +54,7 @@ sections:
   content:
     title: "Policy"
     text: |
-      **Think-Tank Tortuga** I was part of the Think-Tank Tortuga. Tortuga is an Italian think-tank of
+      I was part of the **Think-Tank Tortuga**. Tortuga is an Italian think-tank of
       Economics students and young researchers. We publish articles on economic
       issues of current relevance, with particular attention to their policy
       implications.  
