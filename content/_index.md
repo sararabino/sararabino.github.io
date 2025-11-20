@@ -62,19 +62,19 @@ sections:
   design:
     columns: "1"
 
-# SEZIONE 4: POLICY - REPORTS (Collection a lista/citazione)
-  - block: collection
-    id: reports
-    content:
-      title: '' 
-      filters:
-        folders:
-          - reports
-        exclude_featured: false
-      count: 5
-    design:
-      view: list # FIX: Usiamo 'list' o 'citation' (list è spesso più pulito)
-      columns: 1 # Rimuoviamo la griglia forzata a 2 colonne
+# 🔄 SEZIONE 4: POLICY - REPORTS (Collection a lista/citazione AGGIORNATA)
+- block: collection
+  id: reports
+  content:
+    title: "Official Policy Reports - Tortuga" # Titolo Aggiunto
+    filters:
+      folders:
+        - reports
+      exclude_featured: false
+    count: 5
+  design:
+    view: citation # CAMBIAMENTO CHIAVE: Visualizzazione per lista accademica (con link PDF/Slides)
+    columns: 1 # Assicura una singola colonna per la lista
 
 # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
 - block: markdown
