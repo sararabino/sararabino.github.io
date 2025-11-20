@@ -10,7 +10,7 @@ sections:
 
 # SEZIONE 1: BIO (con sfondo immagine e testo)
 - block: resume-biography-3 # NESSUNO SPAZIO O TAB PRIMA DEL TRATTINO
-  id: bio
+  id: about
   content:
     # Choose a user profile to display (a folder name within `content/authors/`)
     username: admin
