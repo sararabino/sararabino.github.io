@@ -9,20 +9,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 2. Logica per chiudere il menu dopo aver cliccato un'ancora
+    // 2. Logica robusta per chiudere il menu dopo aver cliccato un'ancora
     const anchorLinks = document.querySelectorAll('.navbar-nav a[href*="#"]');
     const menuContainer = document.querySelector('.navbar-collapse');
     const menuToggle = document.querySelector('.navbar-toggler');
 
-    if (anchorLinks.length > 0 && menuContainer && menuToggle) {
+    if (anchorLinks.length > 0 && menuContainer) {
         anchorLinks.forEach(link => {
             link.addEventListener('click', function() {
-                // Aggiungiamo un breve ritardo (100ms) per permettere allo scroll di avviarsi
+                // Aggiungiamo un breve ritardo per consentire l'avvio dello scroll
                 setTimeout(() => {
-                    // Controlla se il menu è aperto
+                    // Verifichiamo se il menu è aperto (contiene la classe 'show')
                     if (menuContainer.classList.contains('show')) {
-                        // Simula il click sul pulsante toggle per chiudere il menu
-                        menuToggle.click();
+                        // Rimuove la classe 'show' che rende il menu visibile
+                        menuContainer.classList.remove('show');
+                        
+                        // Se il bottone esiste, aggiorniamo anche lo stato ARIA (buona pratica)
+                        if (menuToggle) {
+                            menuToggle.setAttribute('aria-expanded', 'false');
+                        }
                     }
                 }, 100); 
             });
