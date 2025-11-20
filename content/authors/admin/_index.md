@@ -9,7 +9,7 @@ pronouns: she/her
 superuser: true
 
 profiles:
-  - icon: at-symbol
+  - icon: envelope
     url: "mailto:sara.rabino@econ.uzh.ch"
     label: "Email"
 
