@@ -25,11 +25,8 @@ sections:
         education: ''
         interests: ''
     design:
-      background:
-        filename: vigna_sfondo.webp
-        image_process:
-          filters:
-            brightness: 0
+      # Apply a gradient background
+      css_class: hbx-bg-gradient
       avatar:
         size: large
         shape: circle
