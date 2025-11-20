@@ -24,13 +24,15 @@ sections:
       education: ''
       interests: ''
   design:
-    background:
-      image:
-        filename: peakpx.jpg
-      # Opzioni di visualizzazione (mantienile per l'effetto parallasse se funziona)
-      image_size: 'cover'       
-      image_position: 'center'  
-      image_parallax: true
+      background:
+        filename: peakpx.jpg # Immagine per Light Mode (quella che usi ora)
+        dark_filename: peakpx_dark.jpg # <-- NUOVA RIGA: Immagine per Dark Mode
+        image_process:
+          filters:
+            brightness: 0.8 # Lasciamo questa per la light mode
+      avatar:
+        size: large
+        shape: circle
       
       # NUOVE OPZIONI PER L'OVERLAY DARK
       overlay_color: '#000' # Colore overlay (nero)
