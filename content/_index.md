@@ -25,7 +25,7 @@ sections:
       interests: 'Interests'
     design:
       background:
-        filename: peakpx.jpg # Immagine per Light Mode (quella che usi ora)
+        filename: peakpx.jpg
       avatar:
         size: large
         shape: circle
