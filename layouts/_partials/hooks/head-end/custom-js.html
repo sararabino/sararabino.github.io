@@ -1,6 +1,6 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // 1. Logica per cambiare 'Follow' in 'Contact'
+    // 1. Logica per cambiare 'Follow' in 'Contact' (Mantenuta)
     const buttons = document.querySelectorAll('.page__actions a, button'); 
 
     buttons.forEach(button => {
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // 2. Logica robusta per chiudere il menu dopo aver cliccato un'ancora
+    // 2. Logica aggressiva per chiudere il menu dopo aver cliccato un'ancora
     const anchorLinks = document.querySelectorAll('.navbar-nav a[href*="#"]');
     const menuContainer = document.querySelector('.navbar-collapse');
     const menuToggle = document.querySelector('.navbar-toggler');
@@ -19,14 +19,17 @@ document.addEventListener('DOMContentLoaded', function() {
             link.addEventListener('click', function() {
                 // Aggiungiamo un breve ritardo per consentire l'avvio dello scroll
                 setTimeout(() => {
-                    // Verifichiamo se il menu è aperto (contiene la classe 'show')
+                    // Controlla se il menu è aperto (contiene la classe 'show')
                     if (menuContainer.classList.contains('show')) {
-                        // Rimuove la classe 'show' che rende il menu visibile
+                        // Rimuove tutte le classi 'attive' dal contenitore
                         menuContainer.classList.remove('show');
+                        menuContainer.classList.remove('open'); // Alcuni temi usano 'open'
                         
-                        // Se il bottone esiste, aggiorniamo anche lo stato ARIA (buona pratica)
+                        // Aggiorna lo stato sul bottone toggle
                         if (menuToggle) {
                             menuToggle.setAttribute('aria-expanded', 'false');
+                            // Aggiunge la classe 'collapsed' (spesso necessaria in Bootstrap)
+                            menuToggle.classList.add('collapsed');
                         }
                     }
                 }, 100); 
