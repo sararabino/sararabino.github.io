@@ -3,7 +3,7 @@
 /* 1. APPLICAZIONE DELLO SFONDO AL WRAPPER GLOBALE (#page-bg) */
 #page-bg {
     /* Forziamo l'immagine sulla pagina di sfondo */
-    background: url("/img/vigna_sfondo.jpg") center/cover fixed !important; 
+    background: url("/img/vigna_sfondo.webp") center/cover fixed !important; 
     
     /* Assicuriamo che #page-bg abbia un'altezza adeguata */
     min-height: 100vh;
