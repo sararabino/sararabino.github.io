@@ -4,34 +4,37 @@ date: 2022-10-24
 type: landing
 
 design:
-  spacing: "3rem"
+  spacing: "6rem"
 
 sections:
 
-# SEZIONE 1: BIO (Pulizia Sfondo e Fix Finale)
-  - block: resume-biography
-    id: about
-    content:
-      username: admin
-      text: |
-        Ciao! I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral labor economics, with a focus on education and gender inequalities. 
-        
-        I am currently visiting Harvard University, hosted by Katherine Coffman. Happy to connect!
-      button:
-        text: Download CV
-        url: '/uploads/resume.pdf'
-      headings:
-        about: ''
-        education: ''
-        interests: 'Interests'
-    design:
-      background:
-        filename: peakpx.jpg # <-- USIAMO IL NOME CHE FUNZIONAVA (.jpg)
-      avatar:
-        size: large
-        shape: circle
-    
-# SEZIONE 2: RESEARCH
+# SEZIONE 1: BIO
+- block: resume-biography
+  id: about
+  content:
+    username: admin
+    text: |
+      Ciao! I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral labor economics, with a focus on education and gender inequalities. 
+      
+      I am currently visiting Harvard University, hosted by Katherine Coffman. Happy to connect!
+    button:
+      text: Download CV
+      url: '/uploads/resume.pdf'
+    headings:
+      about: ''
+      education: ''
+      interests: 'Interests'
+  design:
+    background:
+      filename: vigna_sfondo.webp
+      image_process:
+        filters:
+          brightness: 0.8
+    avatar:
+      size: large
+      shape: circle
+
+# SEZIONE 2: RESEARCH (Allineamento Corretto)
 - block: markdown
   id: research
   content:
@@ -40,10 +43,10 @@ sections:
     text: |
       **Work in Progress**
 
-      **Making a Difference? The Role of Social Impact in College Major Choice** Joint with [Ana Brás-Monteiro](https://anabrasmonteiro.com/) and [Samantha Stelnicki](https://sites.google.com/view/samanthastelnicki/home)
+      **Making a Difference? The Role of Social Impact in College Major Choice** Joint with Ana Brás-Monteiro and Samantha Stelnicki
 
-      **Is Social Learning Gendered?** Joint with Kobbina Awuah, [Stine Helmke](https://www.econ.uzh.ch/en/people/graduatestudents/helmke.html), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/),
-      [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)
+      **Is Social Learning Gendered?** Joint with Kobbina Awuah, Stine Helmke, Rafael Hernández-Pachón, Urša Krenk,
+      Daniela Santos Cárdenas, and David Yanagizawa-Drott
   design:
     columns: "1"
 
