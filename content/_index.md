@@ -8,28 +8,46 @@ design:
 
 sections:
 
-  # SEZIONE 1: BIO (con sfondo e testo)
-  - block: resume-biography
-    id: about
-    content:
-      username: admin
-      text: |
-        Ciao! I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities. 
+# SEZIONE 1: BIO (con sfondo immagine e testo)
+- block: resume-biography
+  id: about
+  content:
+    username: admin
+    text: |
+      Ciao! I’m a fifth-year PhD student in Economics at the University of Zurich. I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities. 
 
-        I am currently visiting Harvard University, hosted by Katherine Coffman. Happy to connect!
-      button:
-        text: Download CV
-        url: '/uploads/resume.pdf'
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      # Apply a gradient background
-      css_class: hbx-bg-gradient
-      avatar:
-        size: large
-        shape: circle
+      I am currently visiting Harvard University, hosted by Katherine Coffman. Happy to connect!
+    button:
+      text: Download CV
+      url: '/uploads/resume.pdf'
+    headings:
+      about: ''
+      education: ''
+      interests: ''
+  
+  # AGGIORNAMENTO DEL BLOCCO DESIGN
+  design:
+    # ATTENZIONE: ho rimosso 'css_class: hbx-bg-gradient' per evitare conflitti.
+    # Se vuoi mantenere il gradiente come overlay sull'immagine, fammelo sapere.
+    
+    # 1. IMPOSTAZIONI DELLO SFONDO
+    background:
+      # Sostituisci con il nome del tuo file. Il percorso 'img/' assume che sia in /static/img/
+      image: 'img/vigna_sfondo.jpg' 
+      
+      # Regola come l'immagine deve essere visualizzata
+      image_size: 'cover'       # Assicura che l'immagine copra l'intera area
+      image_position: 'center'  # Centra l'immagine
+      image_parallax: true      # (Opzionale) Aggiunge un effetto parallasse
+      
+      # OPZIONALE: Aggiunge un overlay nero per rendere il testo più leggibile
+      overlay_color: '#000'
+      overlay_alpha: 0.5 # 50% di trasparenza
+      
+    # 2. ALTRE IMPOSTAZIONI DI DESIGN
+    avatar:
+      size: large
+      shape: circle
 
   # SEZIONE 2: RESEARCH
   - block: markdown
