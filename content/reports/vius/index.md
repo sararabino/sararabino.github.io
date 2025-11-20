@@ -4,12 +4,25 @@ date: 2020-01-01
 authors:
   - Tortuga Think Tank
 publication_types: ["6"] # Policy Report
-abstract: "This report, 'VIUS – Life in a Sip,' is an analysis focusing on the economic sector of Italian wine production, offering insights and policy proposals."
-summary: "This report, 'VIUS – Life in a Sip,' is an analysis focusing on the economic sector of Italian wine production, offering insights and policy proposals."
+abstract: "Rapporto sulla politica italiana ed europea riguardante la tassazione degli alcolici e i suoi effetti."
+summary: "Rapporto sulla politica italiana ed europea riguardante la tassazione degli alcolici e i suoi effetti."
+
+# ABILITA LA CITAZIONE ACCADEMICA
+citation: true
+
+image:
+  featured_image: copertina.jpg
+  caption: 'Immagine di copertina del report'
+
 links:
+  # NUOVO LINK ALL'ARTICOLO/FONTE
+  - name: Articolo/Fonte Tortuga
+    url: "https://www.tortuga-econ.it/2021/11/24/vius-vita-in-un-sorso-policy-report/"
+    icon: link
+    icon_pack: fas
   - name: PDF (Full)
-    url: "https://www.tortuga-econ.it/wp-content/uploads/2021/11/VIUS_book.pdf"
+    url: "https://www.tortuga-econ.it/wp-content/uploads/2020/12/VIUS-Vita-in-un-sorso-Tortuga.pdf"
     icon: file-pdf
     icon_pack: fas
 ---
-This report was published by Tortuga Think Tank in 2020.
+Questo report è stato pubblicato da Tortuga Think Tank nel 2020.
