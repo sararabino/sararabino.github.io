@@ -1,0 +1,50 @@
+/* File: static/css/custom.css */
+
+/* 1. APPLICAZIONE DELLO SFONDO AL WRAPPER GLOBALE (#page-bg) */
+#page-bg {
+    /* Forziamo l'immagine sulla pagina di sfondo */
+    background: url("/img/vigna_sfondo.webp") center/cover fixed !important; 
+    
+    /* Assicuriamo che #page-bg abbia un'altezza adeguata */
+    min-height: 100vh;
+    width: 100%;
+    position: fixed; /* Mantiene l'effetto parallasse */
+    z-index: -1 !important; /* Deve stare SOTTO tutto il contenuto */
+}
+
+/* 2. Neutralizziamo il colore di background del BODY e PAGE-WRAPPER */
+body, .page-wrapper {
+    background-color: transparent !important;
+}
+
+/* 3. OVERRIDE DELLA SEZIONE BIO (SECTION.sezione-vigna) */
+/* Rende la sezione trasparente per far apparire lo sfondo #page-bg */
+section.sezione-vigna, 
+section.sezione-vigna > div,
+section.sezione-vigna .resume-biography {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    z-index: 5 !important;
+    position: relative !important;
+}
+
+/* 4. OVERLAY SCURO E TESTO BIANCO (Gestione della leggibilità) */
+/* Applicare l'overlay alla sezione stessa è più pulito ora */
+section.sezione-vigna::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 10; /* Deve stare sopra #page-bg e sotto il testo */
+}
+
+/* Rendi il testo bianco per leggibilità */
+section.sezione-vigna * { 
+    position: relative !important;
+    z-index: 11 !important; 
+    color: white !important; 
+}
