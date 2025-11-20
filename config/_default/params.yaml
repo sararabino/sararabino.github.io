@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: indigo
+  color: teal
 
   # 👉 Add your custom CSS file here
   custom_css:
