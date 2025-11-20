@@ -8,7 +8,7 @@ main:
   - name: Policy
     url: '/#policy'
     weight: 30
-  - name: Experience
+  - name: Teaching
     url: '/experience/'
     weight: 40
   - name: Other
