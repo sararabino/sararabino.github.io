@@ -1,0 +1,28 @@
+/* File: assets/scss/custom.scss */
+
+.sezione-vigna {
+    /* Il percorso deve essere relativo alla cartella /static (che diventa la radice /) */
+    background-image: url("/img/vigna_sfondo.jpg"); 
+    
+    /* Regole per la visualizzazione dello sfondo */
+    background-size: cover; /* Copre l'intera area */
+    background-position: center; /* Centra l'immagine */
+    background-attachment: fixed; /* Per l'effetto parallasse */
+    
+    /* Overlay semi-trasparente per migliorare la leggibilità del testo */
+    position: relative; 
+    z-index: 1; /* Assicura che l'overlay sia dietro il contenuto */
+}
+
+/* Regola per l'overlay (solo se l'immagine è troppo chiara) */
+/* Questa è una tecnica CSS avanzata che potrebbe non essere necessaria se hai usato l'overlay YAML */
+.sezione-vigna::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Nero con 50% di opacità */
+    z-index: -1; 
+}
