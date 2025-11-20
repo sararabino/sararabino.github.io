@@ -1,4 +1,7 @@
 ---
+title: '' # FIX: Il titolo principale della pagina sarà vuoto
+type: page
+---
 
 ## Wine
 
