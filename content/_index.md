@@ -62,7 +62,7 @@ sections:
     columns: "1"
 
 # SEZIONE 4: POLICY - REPORTS (Collection a 2 colonne)
-- block: collection
+- block: markdown
   id: reports
   content:
     title: ""
