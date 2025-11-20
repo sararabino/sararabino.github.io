@@ -1,26 +1,49 @@
-/* Forza background per la sezione con id "about" */
-section#about, div#about, .hb-section[id="about"] {
-  background-image: url('/images/vigna_sfondo.webp') !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  /* spazio verticale per mostrare lo sfondo */
-  padding-top: 4rem !important;
-  padding-bottom: 4rem !important;
+/* File: static/css/custom.css */
+
+/* 1. Applica lo sfondo alla SEZIONE principale */
+section.sezione-vigna {
+    background-image: url("/img/vigna_sfondo.jpg") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-color: transparent !important; /* Rimuove il colore del tema */
+    position: relative !important;
+    z-index: 1 !important;
 }
 
-/* Rimuovi eventuali overlay del blocco che coprono l'immagine */
-section#about .hb-block, div#about .hb-block, section#about .container {
-  background: transparent !important;
+/* 2. Rendi TRASPARENTI tutti i contenitori interni */
+/* Questo colpisce il div che contiene 'resume-biography' e le classi Tailwind */
+section.sezione-vigna > div,
+section.sezione-vigna .resume-biography,
+section.sezione-vigna .home-section-bg {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
 }
 
-/* Se il tema aggiunge overlay semi-trasparente, puoi aggiustarlo qui */
-section#about::before {
-  content: '';
-  display: block;
-  position: absolute;
-  left: 0; right: 0; top: 0; bottom: 0;
-  pointer-events: none;
-  /* commenta la riga sotto se non vuoi overlay */
-  /* background: rgba(0,0,0,0.12); */
+/* 3. Overlay Scuro (Opzionale - per leggere il testo) */
+section.sezione-vigna::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* 60% nero */
+    z-index: 0; /* Dietro al testo */
+}
+
+/* 4. Assicura che tutto il contenuto sia sopra l'overlay e bianco */
+section.sezione-vigna * {
+    position: relative;
+    z-index: 2; /* Davanti all'overlay */
+}
+
+section.sezione-vigna h1,
+section.sezione-vigna h2,
+section.sezione-vigna h3,
+section.sezione-vigna p,
+section.sezione-vigna span,
+section.sezione-vigna a {
+    color: #ffffff !important; /* Testo bianco */
 }
