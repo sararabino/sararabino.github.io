@@ -62,19 +62,21 @@ sections:
   design:
     columns: "1"
 
-# 🔄 SEZIONE 4: POLICY - REPORTS (Collection a lista/citazione AGGIORNATA)
+# 🔄 SEZIONE 4: POLICY - REPORTS (Collection AGGIORNATA con Padding)
 - block: collection
   id: reports
   content:
-    title: "Official Policy Reports - Tortuga" # Titolo Aggiunto
+    title: ""
     filters:
       folders:
         - reports
       exclude_featured: false
     count: 5
   design:
-    view: citation # CAMBIAMENTO CHIAVE: Visualizzazione per lista accademica (con link PDF/Slides)
-    columns: 1 # Assicura una singola colonna per la lista
+    view: citation
+    columns: 1
+    spacing:
+      padding: [4, 0, 4, 0] # FIX: Aggiunge 4 unità (rem) di padding in alto e in basso.
 
 # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
 - block: markdown
