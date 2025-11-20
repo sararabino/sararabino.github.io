@@ -14,10 +14,10 @@ links:
   - name: Articolo/Fonte Tortuga
     url: "https://www.tortuga-econ.it/2023/01/10/introduciamo-il-salario-minimo/"
     icon: link # Heroicon
-  - name: PDF (Versione Completa)
+  - name: PDF (FULL)
     url: "https://www.tortuga-econ.it/wp-content/uploads/2023/01/Salario_minimo_Tortuga_long.pdf"
     icon: document-text # Heroicon per Download
-  - name: PDF (Versione Breve)
+  - name: PDF (SHORT)
     url: "https://www.tortuga-econ.it/wp-content/uploads/2023/01/Salario_minimo_Tortuga_short.pdf"
     icon: document-magnifying-glass
   - name: Slides
