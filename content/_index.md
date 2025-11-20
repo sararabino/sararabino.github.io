@@ -62,21 +62,19 @@ sections:
   design:
     columns: "1"
 
-# 🔄 SEZIONE 4: POLICY - REPORTS (Collection AGGIORNATA con Padding)
+# 🔄 SEZIONE 4: POLICY - REPORTS (Collection con titolo ripristinato)
 - block: collection
   id: reports
   content:
-    title: ""
+    title: "Policy Reports I contributed to:" # FIX: Titolo ripristinato
     filters:
       folders:
         - reports
       exclude_featured: false
     count: 5
   design:
-    view: citation
-    columns: 1
-    spacing:
-      padding: [4, 0, 4, 0] # FIX: Aggiunge 4 unità (rem) di padding in alto e in basso.
+    view: card
+    columns: 2
 
 # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
 - block: markdown
