@@ -66,14 +66,15 @@ sections:
   id: reports
   content:
     title: ""
-    filters:
-      folders:
-        - reports
-      exclude_featured: false
-    count: 5
-  design:
-    view: article-grid
-    columns: 2
+    text: |
+      ### Policy Reports I contributed to:
+
+      * [2022] Introduciamo il salario minimo?[Italian](https://www.tortuga-econ.it/2023/01/10/introduciamo-il-salario-minimo/)
+      * [2021] Parità e occupazione in Europa[Italian](https://www.tortuga-econ.it/2021/03/09/parita-e-occupazione-in-europa-strategie-analisi-azioni-verso-ununione-delluguaglianza/)
+      * [2020] VIUS – Vita in un sorso[Italian](https://www.tortuga-econ.it/2021/11/24/vius-vita-in-un-sorso-policy-report/)
+      * [2019] Mamma ho preso l’aereo: la nuova fuga dei cervelli italiani[Italian](https://www.tortuga-econ.it/2019/05/08/mamma-ho-preso-laereo-la-nuova-fuga-dei-cervelli-italiani-il-report/)
+      * [2019] Game of Brains, 21st century Italian Emigration[English](https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf)
+    columns: "1"
 
 # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
 - block: markdown
@@ -83,12 +84,12 @@ sections:
     text: |
       ### Some Other Contributions (all in Italian):
 
-      * [2022] [If Minimum Wage Increases, So Do Undeclared Wages](https://www.informazionesenzafiltro.it/se-il-salario-minimo-aumenta-anche-gli-stipendi-in-nero)
-      * [2022] [Working Poor: Italy Can't Count Them. Would Minimum Wage Help?](https://www.informazionesenzafiltro.it/working-poor-italia-salario-minimo)
-      * [2022] [Not All Companies Can Afford the Minimum Wage](https://www.informazionesenzafiltro.it/non-tutte-le-imprese-possono-permettersi-il-salario-minimo)
-      * [2020] [Unemployment in the Time of Coronavirus](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)
-      * [2020] [How to Use European Resources to Attract Talent to Italy](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
-      * [2019] [Women and Work: What the State Does (and Does Not Do)](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
+      * [2022] [Se il salario minimo aumenta anche gli stipendi in nero](https://www.informazionesenzafiltro.it/se-il-salario-minimo-aumenta-anche-gli-stipendi-in-nero)
+      * [2022] [Working poor, l’Italia non sa contarli. Il salario minimo li aiuterebbe?](https://www.informazionesenzafiltro.it/working-poor-italia-salario-minimo)
+      * [2022] [Non tutte le imprese possoo permettersi il salario minimo](https://www.informazionesenzafiltro.it/non-tutte-le-imprese-possono-permettersi-il-salario-minimo)
+      * [2020] [La disoccupazione ai tempi del coronavirus](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)
+      * [2020] [Come utilizzare le risorse europee per attrarre talenti in Italia](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
+      * [2019] [Donne e lavoro: cosa (non) fa lo stato](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
   design:
     columns: "1"
 
