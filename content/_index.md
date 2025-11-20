@@ -25,7 +25,8 @@ sections:
       interests: 'Interests'
     design:
       background:
-        filename: peakpx.jpg
+        filename: vigna_sfondo.jpg
+
     # Avatar customization
     avatar:
       size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
