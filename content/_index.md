@@ -40,10 +40,10 @@ sections:
     text: |
       **Work in Progress**
 
-      **Making a Difference? The Role of Social Impact in College Major Choice** Joint with Ana Brás-Monteiro and Samantha Stelnicki
+      **Making a Difference? The Role of Social Impact in College Major Choice** Joint with [Ana Brás-Monteiro](https://anabrasmonteiro.com/) and [Samantha Stelnicki](https://sites.google.com/view/samanthastelnicki/home)
 
-      **Is Social Learning Gendered?** Joint with Kobbina Awuah, Stine Helmke, Rafael Hernández-Pachón, Urša Krenk,
-      Daniela Santos Cárdenas, and David Yanagizawa-Drott
+      **Is Social Learning Gendered?** Joint with Kobbina Awuah, [Stine Helmke](https://www.econ.uzh.ch/en/people/graduatestudents/helmke.html), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/),
+      [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)
   design:
     columns: "1"
 
