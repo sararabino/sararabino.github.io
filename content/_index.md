@@ -26,10 +26,6 @@ sections:
     design:
       background:
         filename: peakpx.jpg # Immagine per Light Mode (quella che usi ora)
-        dark_filename: peakpx_dark.jpg # <-- NUOVA RIGA: Immagine per Dark Mode
-        image_process:
-          filters:
-            brightness: 0.8 # Lasciamo questa per la light mode
       avatar:
         size: large
         shape: circle
