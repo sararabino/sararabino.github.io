@@ -26,8 +26,9 @@ sections:
       interests: ''
   design:
     background:
-      # Percorso dell'immagine: assume che sia in /static/img/vigna_sfondo.jpg
-      image: 'img/vigna_sfondo.jpg' 
+      # CORREZIONE APPLICATA QUI: l'immagine deve essere specificata come un oggetto con la chiave 'filename'
+      image:
+        filename: 'vigna_sfondo.jpg' # Nome del file. Il percorso 'img/' non è necessario se l'immagine è in 'static/img/' o nella cartella asset specifica.
       # Impostazioni di visualizzazione:
       image_size: 'cover'       
       image_position: 'center'  
