@@ -66,7 +66,8 @@ sections:
 - block: collection
   id: reports
   content:
-    title: "Policy Reports I contributed to:" # FIX: Titolo ripristinato
+    title: ''
+    subtitle: "Policy Reports I contributed to:"
     filters:
       folders:
         - reports
