@@ -48,3 +48,16 @@ section.sezione-vigna * {
     z-index: 11 !important; 
     color: white !important; 
 }
+
+/* CSS per ridurre la dimensione del font del nome nella sezione biografia */
+.display-name {
+    /* Imposta una dimensione più piccola rispetto al default */
+    font-size: 2.2rem !important; 
+    /* Aggiunge spazio sopra per compensare la riduzione */
+    margin-top: 0.5rem !important; 
+}
+
+/* L'icona del PhD che era apparsa per errore */
+.author-box .display-name:after {
+    display: none !important;
+}
