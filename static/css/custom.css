@@ -1,49 +1,66 @@
 /* File: static/css/custom.css */
 
-/* 1. Applica lo sfondo alla SEZIONE principale */
+/* 1. APPLICAZIONE DELLO SFONDO AL TAG <section> ESTERNO */
 section.sezione-vigna {
+    /* Immagine di sfondo */
     background-image: url("/img/vigna_sfondo.jpg") !important;
     background-size: cover !important;
     background-position: center center !important;
     background-attachment: fixed !important;
-    background-color: transparent !important; /* Rimuove il colore del tema */
+    
+    /* Neutralizza il colore di sfondo del tema sulla sezione */
+    background-color: transparent !important; 
+    
+    /* Configurazione per overlay e z-index */
     position: relative !important;
     z-index: 1 !important;
 }
 
-/* 2. Rendi TRASPARENTI tutti i contenitori interni */
-/* Questo colpisce il div che contiene 'resume-biography' e le classi Tailwind */
-section.sezione-vigna > div,
-section.sezione-vigna .resume-biography,
-section.sezione-vigna .home-section-bg {
+/* 2. OVERRIDE DEFINITIVO: RENDE TRASPARENTI TUTTI I CONTENITORI INTERNI */
+/* Colpisce l'elemento wrapper principale della biografia (resume-biography) */
+/* Colpisce i contenitori di layout (md:col-span-4 e 8) e l'elemento home-section-bg */
+.sezione-vigna > div,
+.sezione-vigna .resume-biography,
+.sezione-vigna .home-section-bg,
+.sezione-vigna .md\:col-span-4,
+.sezione-vigna .md\:col-span-8 {
     background: transparent !important;
     background-color: transparent !important;
-    box-shadow: none !important;
+    box-shadow: none !important; /* Rimuove ombre o sfondi impliciti */
 }
 
-/* 3. Overlay Scuro (Opzionale - per leggere il testo) */
-section.sezione-vigna::before {
+/* 3. NEUTRALIZZA LO SFONDO BIANCO/CHIARO SU ELEMENTI SPECIFICI (Avatar, Pulsanti Social) */
+.sezione-vigna .avatar-wrapper,
+.sezione-vigna .w-12.h-12.flex.items-center.justify-center.rounded-full {
+    background-color: transparent !important;
+    /* Opzionale: Rendi i bordi dei social bianchi/visibili su sfondo scuro */
+    border-color: #cccccc !important; 
+}
+
+/* 4. OVERLAY SCURO (Per la leggibilità del testo) */
+.sezione-vigna::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* 60% nero */
-    z-index: 0; /* Dietro al testo */
+    background-color: rgba(0, 0, 0, 0.6); /* Overlay nero con 60% di opacità */
+    z-index: 2 !important;
 }
 
-/* 4. Assicura che tutto il contenuto sia sopra l'overlay e bianco */
-section.sezione-vigna * {
-    position: relative;
-    z-index: 2; /* Davanti all'overlay */
+/* 5. STILE DEL TESTO (Assicura che il testo sia bianco e sopra l'overlay) */
+.sezione-vigna * { 
+    position: relative !important;
+    z-index: 3 !important; /* Deve essere sopra l'overlay (z-index: 2) */
 }
-
-section.sezione-vigna h1,
-section.sezione-vigna h2,
-section.sezione-vigna h3,
-section.sezione-vigna p,
-section.sezione-vigna span,
-section.sezione-vigna a {
-    color: #ffffff !important; /* Testo bianco */
+.sezione-vigna h1,
+.sezione-vigna h2,
+.sezione-vigna h3,
+.sezione-vigna p,
+.sezione-vigna span,
+.sezione-vigna a,
+.sezione-vigna .text-gray-900,
+.sezione-vigna .text-gray-600 { /* Colpiamo le classi di colore del testo */
+    color: white !important; 
 }
