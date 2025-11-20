@@ -25,8 +25,12 @@ sections:
       education: ''
       interests: ''
   design:
+    # CLASSE AGGIUNTA PER IL PADDING RESPONSIVE (MOBILE)
+    css_class: 'p-4 sm:p-6 md:p-8' 
+
+    section_size: 'xxl' 
+    
     background:
-      # CORREZIONE: Uso di 'url' con il percorso completo
       image:
         url: '/img/vigna_sfondo.jpg' 
       image_size: 'cover'       
