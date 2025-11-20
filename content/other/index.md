@@ -1,11 +1,8 @@
 ---
-title: Hobbies & Other Interests
-type: page
----
 
-# Wine
+## Wine
 
-Pictures from our family vineyard “Le Due Sörele” (The two Sisters). This is a passion project and a tribute to the Italian tradition of winemaking.
+Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
 
 ---
 
@@ -15,7 +12,7 @@ Pictures from our family vineyard “Le Due Sörele” (The two Sisters). This i
 
 ---
 
-# Sketches
+## Sketches
 
 To calm my nerves.
 
