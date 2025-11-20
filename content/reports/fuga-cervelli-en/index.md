@@ -12,17 +12,14 @@ image:
   featured_image: copertina.jpg
   caption: 'Immagine di copertina del report'
 links:
-  - name: Articolo/Fonte Tortuga
-    url: "https://www.tortuga-econ.it/2023/01/10/introduciamo-il-salario-minimo/"
-    icon: link # Heroicon
-  - name: PDF (Versione Completa)
-    url: "https://www.tortuga-econ.it/wp-content/uploads/2023/01/Salario_minimo_Tortuga_long.pdf"
-    icon: paper-clip # Heroicon per Download
-  - name: PDF (Versione Breve)
-    url: "https://www.tortuga-econ.it/wp-content/uploads/2023/01/Salario_minimo_Tortuga_short.pdf"
-    icon: paper-clip
+  - name: PDF/Fonte Algebris
+    url: "https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf"
+    icon: document-text
   - name: Slides
-    url: "https://www.tortuga-econ.it/wp-content/uploads/2023/01/Salario_minimo_Tortuga_slide.pdf"
-    icon: document-chart-bar # Heroicon per Presentazione
+    url: "https://www.slideshare.net/secret/p4vgLtDxPedNxk"
+    icon: document-duplicate
+  - name: Video
+    url: "https://www.youtube.com/com/watch?v=IULqRUBGll4"
+    icon: video-camera
 ---
 This report was published in 2019.
