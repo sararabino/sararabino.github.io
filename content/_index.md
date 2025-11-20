@@ -24,19 +24,9 @@ sections:
       about: ''
       education: ''
       interests: ''
-  design:
-    background:
-      # CORREZIONE APPLICATA QUI: l'immagine deve essere specificata come un oggetto con la chiave 'filename'
-      image:
-        url: '/img/vigna_sfondo.jpg' 
-        # La chiave 'filename' non è necessaria quando si usa 'url'
-      # Impostazioni di visualizzazione:
-      image_size: 'cover'       
-      image_position: 'center'  
-      image_parallax: true      
-      # Overlay per leggibilità del testo (nero, 50% trasparente)
-      overlay_color: '#000'
-      overlay_alpha: 0.5 
+    design:
+      # Apply a gradient background
+      css_class: hbx-bg-gradient
     avatar:
       size: large
       shape: circle
