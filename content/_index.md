@@ -27,6 +27,14 @@ sections:
     background:
       image:
         filename: vigna_sfondo.jpg
+      # Opzioni di visualizzazione (mantienile per l'effetto parallasse se funziona)
+      image_size: 'cover'       
+      image_position: 'center'  
+      image_parallax: true
+      
+      # NUOVE OPZIONI PER L'OVERLAY DARK
+      overlay_color: '#000' # Colore overlay (nero)
+      overlay_alpha: 0.2    # Trasparenza in modalità giorno (leggero)
     # Avatar customization
     avatar:
       size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
