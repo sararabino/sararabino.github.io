@@ -1,8 +1,11 @@
-/* Custom CSS per ridurre la dimensione del nome nella sezione Bio */
-.display-name {
-    /* Imposta una dimensione personalizzata (es. 2.2rem è significativamente più piccolo del default) */
+/* Sovrascrittura definitiva della dimensione del nome Sara Rabino */
+#about .display-name {
+    /* Imposta una dimensione visibilmente più piccola (es. 2.2rem) */
     font-size: 2.2rem !important; 
     
-    /* Regola opzionale: riduce il margine in alto */
-    margin-top: 0.5rem !important; 
+    /* Riduce l'altezza della riga per evitare un eccessivo spazio bianco */
+    line-height: 1.2 !important; 
+    
+    /* Opzionale: riduce il margine superiore se necessario */
+    margin-top: 0.5rem !important;
 }
