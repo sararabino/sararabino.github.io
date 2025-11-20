@@ -28,7 +28,8 @@ sections:
     background:
       # CORREZIONE APPLICATA QUI: l'immagine deve essere specificata come un oggetto con la chiave 'filename'
       image:
-        filename: 'vigna_sfondo.jpg' # Nome del file. Il percorso 'img/' non è necessario se l'immagine è in 'static/img/' o nella cartella asset specifica.
+        url: '/img/vigna_sfondo.jpg' 
+        # La chiave 'filename' non è necessaria quando si usa 'url'
       # Impostazioni di visualizzazione:
       image_size: 'cover'       
       image_position: 'center'  
