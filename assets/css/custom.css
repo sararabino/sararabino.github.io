@@ -1,19 +1,15 @@
 /* CSS per controllare la dimensione del nome "Sara Rabino" */
-
-/* Forzare la dimensione sul tag H1 all'interno del blocco Bio */
+/* QUESTA SEZIONE E' CORRETTA */
 #about .display-name,
 #about h1 {
-    /* Il valore 2.2rem è solo un esempio. Scegli una dimensione ridotta. */
     font-size: 2.2rem !important; 
-    
-    /* Riduce lo spazio verticale interno generato dalle classi di dimensione */
     line-height: 1.2 !important; 
 }
+
 /* CSS per ridurre la dimensione del titolo del widget 'Policy Reports' */
-#reports h2,
-#reports h3,
-#reports div.text-3xl { 
-    /* Imposta la dimensione desiderata (1.75rem è più piccolo di 3xl) */
+#reports div.text-3xl,
+#reports div.text-2xl { 
+    /* FIX: Targettiamo la classe esatta 'text-3xl' per la dimensione */
     font-size: 1.75rem !important; 
     
     /* Mantiene il grassetto */
