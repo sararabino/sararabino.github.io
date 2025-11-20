@@ -1,20 +1,24 @@
 /* File: assets/scss/custom.scss */
 
-/* 1. Definiamo lo sfondo sull'elemento SECTION esterno */
+/* 1. Rimuovi lo sfondo sul contenitore esterno <section> (che ha la classe .sezione-vigna) */
 .sezione-vigna {
+    background-image: none !important;
+}
+
+/* 2. FORZA lo sfondo immagine sul contenitore intermedio che è il primo figlio di .sezione-vigna */
+/* Spostiamo l'immagine qui: questo è spesso l'elemento in cui il tema Wowchemy applica lo sfondo */
+.sezione-vigna > .home-section-bg {
     background-image: url("/img/vigna_sfondo.jpg") !important; 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed;
+    background-color: transparent !important; /* Rende esplicito il colore di base trasparente */
 }
 
-/* 2. FORZIAMO LA TRASPARENZA SUI CONTENITORI INTERNI */
-
+/* 3. FORZA la trasparenza su tutti i possibili contenitori interni di contenuto */
+/* Questo è l'override definitivo del colore bianco */
+.sezione-vigna .resume-biography, 
 .sezione-vigna .home-section-bg {
-    background-color: transparent !important;
-}
-
-/* 3. Aggiungiamo anche un override per il contenitore di padding interno per sicurezza */
-.sezione-vigna .resume-biography {
+    background: transparent !important;
     background-color: transparent !important;
 }
