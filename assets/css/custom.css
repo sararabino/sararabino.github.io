@@ -15,3 +15,12 @@
     /* Mantiene il grassetto */
     font-weight: 700 !important;
 }
+
+/* 2. FIX TITOLO SOTTOLISTA (Applicazione della logica 'reports' alla sezione 'articles') */
+#policy-articles [class*="text-"] {
+    /* Imposta la dimensione richiesta dall'utente */
+    font-size: 1.30rem !important; 
+    
+    /* Mantiene il grassetto */
+    font-weight: 700 !important;
+}
