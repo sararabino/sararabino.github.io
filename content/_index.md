@@ -73,8 +73,8 @@ sections:
       exclude_featured: false
     count: 5
   design:
-    view: card
-    columns: 2
+    view: citation
+    columns: 1
 
 # SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
 - block: markdown
