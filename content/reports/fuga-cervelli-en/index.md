@@ -7,16 +7,11 @@ authors:
 publication_types: ["6"] # Policy Report
 abstract: "An English-language report that provides an economic perspective on 21st-century Italian emigration, analyzing the characteristics and impacts of the outflow of talent."
 summary: "An English-language report that provides an economic perspective on 21st-century Italian emigration, analyzing the characteristics and impacts of the outflow of talent."
-
-# ABILITA LA CITAZIONE ACCADEMICA
 citation: true
-
 image:
   featured_image: copertina.jpg
   caption: 'Immagine di copertina del report'
-
 links:
-  # AGGIORNO IL NOME DEL PDF PER CHIAMARLO FONTE/PDF ALGEBRIS
   - name: PDF/Fonte Algebris
     url: "https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf"
     icon: file-pdf
