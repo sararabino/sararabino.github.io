@@ -15,5 +15,9 @@ links:
     url: "https://www.slideshare.net/secret/p4vgLtDxPedNxk"
     icon: presentation
     icon_pack: fas
+  - name: Video
+    url: "https://www.youtube.com/watch?v=IULqRUBGll4"
+    icon: video
+    icon_pack: fas
 ---
 This report was published by Tortuga Think Tank in 2019.
