@@ -23,32 +23,6 @@ interests:
   - Gender Inequalities
   - Education
 
-education:
-  - area: "PhD in Economics"
-    institution: "University of Zurich" 
-    date_start: 2021-08-01
-    date_end: ""
-    summary: |
-      Supervisors: Ana Costa-Ramón, Roberto Weber.
-
-  - area: "MSc in Economic and Social Sciences"
-    institution: "Bocconi University"
-    date_start: 2018-09-01
-    date_end: 2021-04-01
-    summary: |
-      Final Thesis: Stuck in Reverse: Employer's Underinvestment in Training less Educated Women. Supervisor: Jérôme Adda.
-
-  - area: "Exchange Program"
-    institution: "University College London"
-    date_start: 2018-01-01
-    date_end: 2018-06-01
-
-  - area: "Bachelor in Economic and Social Sciences"
-    institution: "Bocconi University"
-    date_start: 2015-09-01
-    date_end: 2018-10-01
-    summary: ""
-
 work:
   - position: Lecturer (The Economics of Gender Norms, BA)
     company_name: University of Zurich
