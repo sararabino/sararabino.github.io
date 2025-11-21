@@ -4,8 +4,8 @@ date: 2022-01-01
 authors:
   - Tortuga Think Tank
 publication_types: ["6"] # Policy Report
-abstract: "This report provides an in-depth analysis of the proposal to introduce a legal minimum wage in Italy, exploring its potential economic impacts and different policy configurations."
-summary: "This report provides an in-depth analysis of the proposal to introduce a legal minimum wage in Italy, exploring its potential economic impacts and different policy configurations."
+abstract: "This report provides an analysis of the proposal to introduce a legal minimum wage in Italy, exploring its potential economic impact and different policy configurations given the existing Economics literature."
+summary: "This report provides an analysis of the proposal to introduce a legal minimum wage in Italy, exploring its potential economic impact and different policy configurations given the existing Economics literature."
 citation: true
 image:
   featured_image: copertina.jpg
