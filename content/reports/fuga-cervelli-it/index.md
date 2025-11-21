@@ -4,8 +4,8 @@ date: 2019-01-01
 authors:
   - Tortuga Think Tank
 publication_types: ["6"] # Policy Report
-abstract: "This report analyzes the causes and consequences of the 'brain drain' phenomenon in Italy, proposing concrete policies to attract and retain young talent."
-summary: "This report analyzes the causes and consequences of the 'brain drain' phenomenon in Italy, proposing concrete policies to attract and retain young talent."
+abstract: "This report analyzes the 'brain drain' phenomenon in Italy, proposing concrete policies to attract and retain young talent."
+summary: "This report analyzes the 'brain drain' phenomenon in Italy, proposing concrete policies to attract and retain young talent."
 citation: true
 image:
   featured_image: copertina.jpg
