@@ -34,9 +34,9 @@
   display: none !important;
 }
 
-/* Nasconde la metadata (Autore, Data, Tempo di Lettura) su pagine generali/semplici */
-/* Questo risolve il problema di "1 min read" sotto ogni immagine */
+/* FIX GLOBALE DEFINITIVO: Nasconde la metadata (Autore, Data, Tempo di Lettura) */
 .article-metadata,
-.article-metadata span {
+.pub-list-item .article-metadata,
+.list-item-meta {
     display: none !important;
 }
