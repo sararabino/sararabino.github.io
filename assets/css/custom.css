@@ -23,7 +23,7 @@
     font-weight: 700 !important;
 }
 
-#teaching .article-metadata,
-#teaching .article-metadata time {
+#work .article-metadata,
+#work .article-metadata time {
   display: none;
 }
