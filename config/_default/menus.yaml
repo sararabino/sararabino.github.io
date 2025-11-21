@@ -1,19 +1,19 @@
 main:
-  - name: About
+  - name: Bio
     url: '/#about'
     weight: 10
   - name: Research
     url: '/#research'
     weight: 20
+  - name: Teaching # Nome nel menu
+    url: '/#teaching' # Punta al nuovo ID
+    weight: 30 # Posizione corretta
   - name: Policy
     url: '/#policy'
-    weight: 30
-  - name: Teaching
-    url: '/teaching/'
     weight: 40
   - name: Other
-    url: '/other/' # FIX: Ora punta alla pagina dedicata
+    url: '/#other'
     weight: 50
   - name: CV
-    url: /uploads/resume.pdf
+    url: '/uploads/resume.pdf'
     weight: 60
