@@ -47,22 +47,23 @@ sections:
   design:
     columns: "1"
 
-# --------------------------
-# SEZIONE 3: TEACHING (BLOCCO MARKDOWN STATICO)
-# --------------------------
+# 🔄 SEZIONE 3: TEACHING (NUOVO LAYOUT CON ICONE)
 - block: markdown
   id: teaching # ANCORA: /#teaching
   content:
-    title: "Teaching" # Titolo Esatto richiesto
+    title: "Teaching" # Titolo esatto
     text: |
       ### University of Zurich
-
-      * **Lecturer (The Economics of Gender Norms, BA)**, 2024
-      * **Teaching Assistant (Econometrics for Research Students, PhD)**, 2023–2024
+      
+      {{< icon name="academic-cap" pack="hero" >}} **Lecturer** (The Economics of Gender Norms, BA), 2024
+      
+      {{< icon name="academic-cap" pack="hero" >}} **Teaching Assistant** (Econometrics for Research Students, PhD), 2023–2024
+      
+      <br>
 
       ### Bocconi University
       
-      * **Teaching Assistant (Computer Science, BA)**, 2016–2020
+      {{< icon name="academic-cap" pack="hero" >}} **Teaching Assistant** (Computer Science, BA), 2016–2020
   design:
     columns: '1'
 
