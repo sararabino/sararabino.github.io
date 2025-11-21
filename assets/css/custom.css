@@ -22,3 +22,8 @@
     font-size: 1.30rem !important; 
     font-weight: 700 !important;
 }
+
+#teaching .article-metadata,
+#teaching .article-metadata time {
+  display: none;
+}
