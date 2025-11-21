@@ -26,19 +26,19 @@ interests:
 work:
   - position: Lecturer (The Economics of Gender Norms, BA)
     company_name: University of Zurich
-    date_start: 2024
-    date_end: 2024
-    summary: 
+    date_start: 2024-01-01
+    date_end: 2024-01-01
+    summary: "2024"
   - position: Teaching Assistant (Econometrics for Research Students, PhD)
     company_name: University of Zurich
-    date_start: 2023
-    date_end: 2024
-    summary: 
+    date_start: 2023-01-01
+    date_end: 2024-01-01
+    summary: "2023–2024"
   - position: Teaching Assistant (Computer Science, BA)
     company_name: Bocconi University
-    date_start: 2016
-    date_end: 2020
-    summary: 
+    date_start: 2016-01-01
+    date_end: 2020-01-01
+    summary: "2016–2020"
 ---
 
 I’m a fifth-year PhD student in Economics at the University of Zurich, supervised by [Ana Costa-Ramón](https://sites.google.com/view/anamariacostaramon) and [Roberto A. Weber](https://www.robertoweber.com). I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
