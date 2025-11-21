@@ -53,7 +53,7 @@ sections:
   content:
     title: "Teaching" # Titolo esatto
     text: |
-      ### University of Zurich
+      **University of Zurich**
       
       {{< icon name="academic-cap" pack="hero" >}} **Lecturer** (The Economics of Gender Norms, BA), 2024
       
@@ -61,7 +61,7 @@ sections:
       
       <br>
 
-      ### Bocconi University
+      **Bocconi University** 
       
       {{< icon name="academic-cap" pack="hero" >}} **Teaching Assistant** (Computer Science, BA), 2016–2020
   design:
