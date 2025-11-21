@@ -13,7 +13,7 @@ sections:
     content:
       title: 'Wine' # Titolo H2/H3
       text: |
-        Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
+        Pictures from our family vineyard “Le Due Sörele” (The Two Sisters)
 
         ---
         
@@ -32,7 +32,7 @@ sections:
     content:
       title: 'Sketches'
       text: |
-        To calm my nerves.
+        To calm my nerves
 
         ---
         {{< figure src="/uploads/Sketch_1.jpg" >}}
