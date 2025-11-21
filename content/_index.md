@@ -61,12 +61,14 @@ sections:
       [Visit the official website](https://www.tortuga-econ.it/)
   design:
     columns: "1"
-
+    spacing:
+      bottom: 0      # reduces space AFTER this section
+  
 # 🔄 SEZIONE 4: POLICY - REPORTS (Collection con titolo ripristinato)
 - block: collection
   id: reports
   content:
-    title: "Policy Reports I contributed to:"
+    title: "Some Policy Reports I contributed to:"
     filters:
       folders:
         - reports
@@ -75,22 +77,4 @@ sections:
   design:
     view: citation
     columns: 1
-
-# SEZIONE 5: POLICY - OTHER CONTRIBUTIONS
-- block: markdown
-  id: policy-articles
-  content:
-    title: ""
-    text: |
-      ### Some Other Contributions (all in Italian):
-
-      * [2022] [Se il salario minimo aumenta anche gli stipendi in nero](https://www.informazionesenzafiltro.it/se-il-salario-minimo-aumenta-anche-gli-stipendi-in-nero)
-      * [2022] [Working poor, l’Italia non sa contarli. Il salario minimo li aiuterebbe?](https://www.informazionesenzafiltro.it/working-poor-italia-salario-minimo)
-      * [2022] [Non tutte le imprese possoo permettersi il salario minimo](https://www.informazionesenzafiltro.it/non-tutte-le-imprese-possono-permettersi-il-salario-minimo)
-      * [2020] [La disoccupazione ai tempi del coronavirus](https://www.pandorarivista.it/articoli/la-disoccupazione-ai-tempi-del-coronavirus/)
-      * [2020] [Come utilizzare le risorse europee per attrarre talenti in Italia](https://www.fanpage.it/economia/come-utilizzare-le-risorse-europee-per-attrarre-talenti-in-italia/)
-      * [2019] [Donne e lavoro: cosa (non) fa lo stato](https://www.econopoly.ilsole24ore.com/2019/03/08/donne-lavoro-stato/)
-  design:
-    columns: "1"
-
 ---
