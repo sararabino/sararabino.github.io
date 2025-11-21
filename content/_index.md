@@ -48,30 +48,23 @@ sections:
     columns: "1"
 
 # --------------------------
-# SEZIONE 3: TEACHING (NUOVO BLOCCO STRUTTURATO)
+# SEZIONE 3: TEACHING (BLOCCO MARKDOWN STATICO)
 # --------------------------
-- block: experience
+- block: markdown
   id: teaching # ANCORA: /#teaching
   content:
-    title: "Teaching" # Titolo esatto
-    text: '' # Lascia vuoto per non avere testo aggiuntivo
-    items: # Dati strutturati
-      - position: Lecturer (The Economics of Gender Norms, BA)
-        company_name: University of Zurich
-        date_start: 2024-09-01
-        date_end: 2024-11-01
-      - position: Teaching Assistant (Econometrics for Research Students, PhD)
-        company_name: University of Zurich
-        date_start: 2023-02-01
-        date_end: 2024-06-01
-      - position: Teaching Assistant (Computer Science, BA)
-        company_name: Bocconi University
-        date_start: 2016-09-01
-        date_end: 2020-06-01
+    title: "Teaching" # Titolo Esatto richiesto
+    text: |
+      ### University of Zurich
+
+      * **Lecturer (The Economics of Gender Norms, BA)**, 2024
+      * **Teaching Assistant (Econometrics for Research Students, PhD)**, 2023–2024
+
+      ### Bocconi University
+      
+      * **Teaching Assistant (Computer Science, BA)**, 2016–2020
   design:
-    # Il formato '2006' mostra solo l'anno.
-    date_format: '2006' 
-    columns: '1' # Ritorna a 1 colonna per semplicità di lettura
+    columns: '1'
 
 # SEZIONE 4: POLICY - INTRO
 - block: markdown
