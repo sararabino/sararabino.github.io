@@ -12,7 +12,7 @@ main:
     url: '/#policy'
     weight: 40
   - name: Other
-    url: '/#other'
+    url: '/other/' # FIX: Ora punta alla pagina dedicata
     weight: 50
   - name: CV
     url: '/uploads/resume.pdf'
