@@ -5,7 +5,7 @@ type: page
 
 ### Wine
 
-Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
+Pictures from our family vineyard “Le Due Sörele” (The two Sisters)
 
 ---
 
@@ -17,7 +17,7 @@ Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
 
 ### Sketches
 
-To calm my nerves.
+To calm my nerves
 
 ---
 
