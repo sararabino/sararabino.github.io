@@ -20,26 +20,26 @@ profiles:
 interests:
   - Behavioral Economics
   - Labor Economics
-  - Gender Inequalities
+  - Gender
   - Education
 
 work:
   - position: Lecturer (The Economics of Gender Norms, BA)
     company_name: University of Zurich
-    date_start: 2024-09-01
-    date_end: ''
+    date_start: 2024
+    date_end: 2024
     summary: |
       Taught the undergraduate course "The Economics of Gender Norms".
   - position: Teaching Assistant (Econometrics for Research Students, PhD)
     company_name: University of Zurich
-    date_start: 2023-03-01
-    date_end: ''
+    date_start: 2023
+    date_end: 2024
     summary: |
       Assisted the PhD course in Spring 2023 and 2024.
   - position: Teaching Assistant (Computer Science, BA)
     company_name: Bocconi University
-    date_start: 2016-09-01
-    date_end: 2020-12-31
+    date_start: 2016
+    date_end: 2020
     summary: |
       Assisted the Bachelor's course "Computer Science".
 ---
