@@ -34,9 +34,10 @@
   display: none !important;
 }
 
-/* FIX GLOBALE DEFINITIVO: Nasconde la metadata (Autore, Data, Tempo di Lettura) */
-.article-metadata,
+/* FIX GLOBALE DEFINITIVO (Ultima prova): Nasconde l'intero blocco di metadati */
+/* Questo targetta l'elemento genitore dei metadati (data, autore, tempo di lettura) */
 .pub-list-item .article-metadata,
-.list-item-meta {
+.list-item-meta,
+.article-metadata time {
     display: none !important;
 }
