@@ -23,7 +23,14 @@
     font-weight: 700 !important;
 }
 
-#work .article-metadata,
-#work .article-metadata time {
-  display: none;
+/* Hide any <time> tags inside #work (the Teaching section) */
+#work time {
+  display: none !important;
 }
+
+/* Hide any article-metadata inside #work */
+#work .article-metadata,
+#work .article-metadata * {
+  display: none !important;
+}
+
