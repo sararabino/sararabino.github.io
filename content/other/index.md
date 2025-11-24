@@ -38,7 +38,7 @@ sections:
         {{< figure src="/uploads/Sketch_1.jpg" >}}
         {{< figure src="/uploads/Sketch_2.jpg" >}}
         {{< figure type="portrait" src="/uploads/Sketch_3.jpg" >}}
-        {{< figure src="/uploads/Sketche_4.jpg" >}}
+        {{< figure src="/uploads/Sketch_4.jpg" >}}
         {{< figure src="/uploads/Sketch_5.jpg" >}}
     design:
       columns: '1'
