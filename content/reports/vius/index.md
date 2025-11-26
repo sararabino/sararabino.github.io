@@ -15,7 +15,7 @@ links:
     url: "https://www.tortuga-econ.it/2021/11/24/vius-vita-in-un-sorso-policy-report/"
     icon: link
   - name: PDF (Full)
-    url: "https://www.tortuga-econ.it/wp-content/uploads/2020/12/VIUS-Vita-in-un-sorso-Tortuga.pdf"
+    url: "https://www.tortuga-econ.it/wp-content/uploads/2021/11/VIUS_book.pdf"
     icon: document-text
 ---
 This report was published by Tortuga Think Tank in 2020.
