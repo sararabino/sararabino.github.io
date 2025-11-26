@@ -1,7 +1,7 @@
 ---
 title: '' # Lasciamo vuoto come richiesto
 date: 2023-10-24
-type: landing # FIX CRITICO: Cambiato da 'page' a 'landing'
+type: page # FIX CRITICO: Cambiato da 'page' a 'landing'
 
 design:
   spacing: '0rem' # Rimuove la spaziatura predefinita tra i blocchi
