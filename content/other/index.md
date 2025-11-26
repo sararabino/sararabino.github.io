@@ -1,7 +1,7 @@
 ---
 title: '' # Vuoto come richiesto da Sara
 date: 2023-10-24
-type: page # ESSENZIALE: Corretto da 'landing' a 'page' per visualizzare i blocchi markdown
+type: landing # ESSENZIALE: Corretto da 'landing' a 'page' per visualizzare i blocchi markdown
 
 design:
   spacing: '0rem' # Rimuove la spaziatura predefinita tra i blocchi
