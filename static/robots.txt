@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sararabino.github.io/sitemap.xml
