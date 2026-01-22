@@ -9,7 +9,7 @@ design:
 
 ## Wine
 
-Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
+Pictures from our family vineyard “Le Due Sörele” (The two Sisters)
 
 ---
 
@@ -21,11 +21,12 @@ Pictures from our family vineyard “Le Due Sörele” (The two Sisters).
 
 ## Sketches
 
-To calm my nerves.
+To calm my nerves
 
 ---
 
 {{< figure src="/uploads/Sketch_1.jpg" >}}
+{{< figure src="/uploads/Sketch_6.jpg" >}}
 {{< figure src="/uploads/Sketch_2.jpg" >}}
 {{< figure type="portrait" src="/uploads/Sketch_3.jpg" >}}
 {{< figure src="/uploads/Sketch_4.jpg" >}}
