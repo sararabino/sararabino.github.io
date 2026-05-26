@@ -40,6 +40,6 @@ work:
 
 I’m a fifth-year PhD student in Economics at the University of Zurich, supervised by [Ana Costa-Ramón](https://sites.google.com/view/anamariacostaramon) and [Roberto A. Weber](https://www.robertoweber.com). I work at the intersection of behavioral and labor economics, with a focus on education and gender inequalities.
 
-I am currently visiting Harvard University, hosted by [Katherine Coffman](https://sites.google.com/site/kbaldigacoffman/).
+In Fall 2025 I visited Harvard University, hosted by [Katherine Coffman](https://sites.google.com/site/kbaldigacoffman/).
 
 Happy to Connect!
