@@ -44,6 +44,8 @@ sections:
 
       **Is Social Learning Gendered?** Joint with Kobbina Awuah, [Stine Helmke](https://www.econ.uzh.ch/en/people/graduatestudents/helmke.html), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/),
       [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)
+
+      **How Men and Women Want to Do (and Look) Good: Effective Altruism vs Warm Glow**
   design:
     columns: "1"
 
