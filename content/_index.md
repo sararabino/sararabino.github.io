@@ -36,7 +36,6 @@ sections:
   id: research
   content:
     title: "Research"
-    subtitle: "Work in progress"
     text: |
       ### Work in Progress
 
