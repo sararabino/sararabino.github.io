@@ -17,9 +17,6 @@ links:
   - name: PDF (Full)
     url: "https://www.tortuga-econ.it/wp-content/uploads/2020/03/fuga-di-cervelli-brai-drain-tortuga-5.pdf"
     icon: document-text
-  - name: Slides
-    url: "https://www.slideshare.net/secret/p4vgLtDxPedNxk"
-    icon: document-duplicate
   - name: Video
     url: "https://www.youtube.com/watch?v=IULqRUBGll4"
     icon: video-camera # Heroicon
