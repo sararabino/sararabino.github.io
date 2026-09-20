@@ -108,4 +108,6 @@ sections:
   design:
     view: citation
     columns: 1
+    spacing:
+      top: 0
 ---
