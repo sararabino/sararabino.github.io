@@ -69,3 +69,7 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# Citation style for the policy reports
+publications:
+  citation_style: mla
