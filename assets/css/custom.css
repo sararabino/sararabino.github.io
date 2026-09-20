@@ -106,3 +106,11 @@
 #teaching svg {
   color: #0f766e;
 }
+
+/* report titles: plain text, not links to the detail pages */
+#reports a[href*="/reports/"] {
+  pointer-events: none;
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
