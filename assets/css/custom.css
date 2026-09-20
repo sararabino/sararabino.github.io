@@ -117,21 +117,24 @@
 
 /* ---- policy reports ---- */
 
-/* bigger report titles */
+/* titles: same size as the paper titles, not bold, black */
 #reports .pub-list-item {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 #reports .pub-list-item > a {
-  font-weight: 700;
+  font-weight: 400;
+  color: inherit;
 }
 
-/* close the gap between the Tortuga paragraph and the report list */
+/* spacing around the reports list */
 #policy { padding-bottom: 0 !important; }
-#reports { padding-top: 0 !important; }
+#reports { padding-top: 3rem !important; }
 #reports h1,
 #reports h2,
 #reports h3 {
   margin-top: 0 !important;
   margin-bottom: 0.75rem !important;
 }
+
+#reports [class*="mb-"] { margin-bottom: 1rem !important; }
