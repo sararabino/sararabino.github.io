@@ -44,13 +44,19 @@ sections:
 
       <span class="paper-authors">Joint with [Ana Brás-Monteiro](https://anabrasmonteiro.com/) and [Samantha Stelnicki](https://sites.google.com/view/samanthastelnicki/home)</span>
 
+      <span class="paper-status">Draft available upon request</span>
+
       <span class="res-label">Work in Progress</span>
 
       <span class="paper-title">Is Social Learning Gendered?</span>
 
       <span class="paper-authors">Joint with Kobbina Awuah, [Stine Helmke](https://www.econ.uzh.ch/en/people/graduatestudents/helmke.html), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/), [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)</span>
 
+      <span class="paper-status">Draft coming soon</span>
+
       <span class="paper-title">How Men and Women Want to Do (and Look) Good: Effective Altruism vs Warm Glow</span>
+
+      <span class="paper-status">Piloting stage</span>
   design:
     columns: "1"
 
