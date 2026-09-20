@@ -17,8 +17,5 @@ links:
   - name: PDF (Full)
     url: "https://www.tortuga-econ.it/wp-content/uploads/2021/03/Guida-Gender-Parity_Mar21_digitale.pdf"
     icon: document-text
-  - name: Slides
-    url: "https://www.slideshare.net/secret/2eS1LEWZnEIPdp"
-    icon: document-duplicate
 ---
 This report was published by Tortuga Think Tank in 2021.
