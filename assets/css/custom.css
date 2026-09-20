@@ -136,3 +136,20 @@
   margin-top: 1rem !important;
   max-width: calc(65ch - 3rem) !important;
 }
+
+/* ---- "Other" page ---- */
+
+/* Wine / Sketches headings */
+#wine,
+#sketches {
+  font-size: 1.5rem !important;
+}
+
+/* photos and sketches */
+img[src^="/uploads/"] {
+  display: block;
+  max-width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
