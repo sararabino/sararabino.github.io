@@ -114,3 +114,24 @@
   text-decoration: none;
   cursor: default;
 }
+
+/* ---- policy reports ---- */
+
+/* bigger report titles */
+#reports .pub-list-item {
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+#reports .pub-list-item > a {
+  font-weight: 700;
+}
+
+/* close the gap between the Tortuga paragraph and the report list */
+#policy { padding-bottom: 0 !important; }
+#reports { padding-top: 0 !important; }
+#reports h1,
+#reports h2,
+#reports h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0.75rem !important;
+}
