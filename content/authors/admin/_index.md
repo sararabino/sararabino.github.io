@@ -38,6 +38,6 @@ work:
     date_end: 2020-06-01
 ---
 
-I’m a sixth-year PhD student in Economics at the University of Zurich, supervised by [Ana Costa-Ramón](https://sites.google.com/view/anamariacostaramon), [Roberto A. Weber](https://www.robertoweber.com), and [Katherine B. Coffman](https://sites.google.com/site/kbaldigacoffman/). I work at the intersection of behavioral and labor economics, with a focus on career choices and gender inequalities.
+I’m a sixth-year PhD student in Economics at the University of Zurich, supervised by [Roberto A. Weber](https://www.robertoweber.com), [Katherine B. Coffman](https://sites.google.com/site/kbaldigacoffman/) and [Ana Costa-Ramón](https://sites.google.com/view/anamariacostaramon). I work at the intersection of behavioral and labor economics, with a focus on career choices and gender inequalities.
 
 **I am on the 2026/27 job market.**
