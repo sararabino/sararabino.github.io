@@ -68,13 +68,13 @@ sections:
     text: |
       <span class="res-label">University of Zurich</span>
 
-      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Lecturer</span> <span class="teach-course">(The Economics of Gender Norms, BA), 2024</span>
+      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Lecturer</span> <span class="teach-course">The Economics of Gender Norms, BA, 2024</span>
 
-      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">(Econometrics for Research Students, PhD), 2023–2024</span>
+      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">Econometrics for Research Students, PhD, 2023–2024</span>
 
       <span class="res-label">Bocconi University</span>
 
-      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">(Computer Science, BA), 2016–2020</span>
+      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">Computer Science, BA, 2016–2020</span>
   design:
     columns: '1'
 
