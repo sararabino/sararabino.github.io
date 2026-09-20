@@ -60,23 +60,21 @@ sections:
   design:
     columns: "1"
 
-# 🔄 SEZIONE 3: TEACHING (NUOVO LAYOUT CON ICONE)
+# SEZIONE 3: TEACHING
 - block: markdown
-  id: teaching # ANCORA: /#teaching
+  id: teaching
   content:
-    title: "Teaching" # Titolo esatto
+    title: "Teaching"
     text: |
-      **University of Zurich**
+      <span class="res-label">University of Zurich</span>
 
-      {{< icon name="academic-cap" pack="hero" >}} **Lecturer** (The Economics of Gender Norms, BA), 2024
+      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Lecturer</span> <span class="teach-course">(The Economics of Gender Norms, BA), 2024</span>
 
-      {{< icon name="academic-cap" pack="hero" >}} **Teaching Assistant** (Econometrics for Research Students, PhD), 2023–2024
+      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">(Econometrics for Research Students, PhD), 2023–2024</span>
 
-      <br>
+      <span class="res-label">Bocconi University</span>
 
-      **Bocconi University**
-
-      {{< icon name="academic-cap" pack="hero" >}} **Teaching Assistant** (Computer Science, BA), 2016–2020
+      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">(Computer Science, BA), 2016–2020</span>
   design:
     columns: '1'
 
