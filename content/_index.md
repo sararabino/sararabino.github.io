@@ -31,23 +31,47 @@ sections:
       size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
       shape: circle # Options: circle (default), square, rounded
     
-# SEZIONE 2: RESEARCH (Allineamento Corretto)
-- block: markdown
-  id: research
-  content:
-    title: "Research"
-    subtitle: "Work in progress"
-    text: |
-      **Work in progress**
+/* ================= RESEARCH SECTION ================= */
 
-      **Making a Difference? The Role of Social Impact in College Major Choice** Joint with [Ana Brás-Monteiro](https://anabrasmonteiro.com/) and [Samantha Stelnicki](https://sites.google.com/view/samanthastelnicki/home)
+/* the spans control all the spacing */
+#research p { margin: 0; }
 
-      **Is Social Learning Gendered?** Joint with Kobbina Awuah, [Stine Helmke](https://www.econ.uzh.ch/en/people/graduatestudents/helmke.html), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/),
-      [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)
+/* "Job Market Paper" / "Work in Progress" labels */
+#research .res-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin: 2rem 0 0.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+#research p:first-of-type .res-label { margin-top: 0; }
 
-      **How Men and Women Want to Do (and Look) Good: Effective Altruism vs Warm Glow**
-  design:
-    columns: "1"
+/* paper titles */
+#research .paper-title {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #0f766e;
+  margin-top: 1.1rem;
+}
+
+/* co-authors */
+#research .paper-authors {
+  display: block;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+#research .paper-authors a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 
 # 🔄 SEZIONE 3: TEACHING (NUOVO LAYOUT CON ICONE)
 - block: markdown
