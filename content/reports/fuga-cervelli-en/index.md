@@ -15,11 +15,5 @@ links:
   - name: PDF/Fonte Algebris
     url: "https://media.algebris.com/algebris_policy_research_forum/Issue-3_Game-of-Brains-21st-century-Italian-emigration.pdf"
     icon: document-text
-  - name: Slides
-    url: "https://www.slideshare.net/secret/p4vgLtDxPedNxk"
-    icon: document-duplicate
-  - name: Video
-    url: "https://www.youtube.com/com/watch?v=IULqRUBGll4"
-    icon: video-camera
 ---
 This report was published in 2019.
