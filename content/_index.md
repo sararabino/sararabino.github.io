@@ -46,6 +46,10 @@ sections:
 
       <span class="paper-status">Draft available upon request</span>
 
+      <details class="abstract"><summary>Abstract</summary>
+      <p>Work is not only a means of earning a living—it can also be a source of meaning, coming in part from the contribution people feel they make to society. Because the choice of academic major largely shapes future career paths, we ask: do students hold accurate perceptions of how fulfilling different fields are in terms of social contribution, and how do these perceptions shape major choices? We address these questions through a survey experiment at a large U.S. public university. We find that students substantially underestimate how satisfied previous graduates report being with their societal contribution, with significant heterogeneity by field—and students' expectations of their own satisfaction with impact follow the same pattern. These beliefs are consistent with stereotyping: students believe that graduates in fields such as Health and Social Sciences are much more likely to feel a sense of contribution than graduates in Physics &amp; Mathematics or Computer Sciences, while nationally representative data on college graduates shows the gap is much smaller. We show that randomly providing information on previous graduates' experiences of impact across all fields significantly shifts students' perceptions, with revisions proportional to their initial misperceptions. These revised beliefs lead students who value social contribution to recommend a broader set of majors to like-minded peers. We see more limited effects on students' intentions and class enrollment, with significant changes only among women, who place the highest value on socially impactful careers and are already concentrated in more stereotypical fields.</p>
+      </details>
+  
       <span class="res-label">Work in Progress</span>
 
       <span class="paper-title">Is Social Learning Gendered?</span>
