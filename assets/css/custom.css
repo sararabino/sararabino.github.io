@@ -127,14 +127,12 @@
   color: inherit;
 }
 
-/* spacing around the reports list */
+/* spacing above the heading */
 #policy { padding-bottom: 0 !important; }
 #reports { padding-top: 3rem !important; }
-#reports h1,
-#reports h2,
-#reports h3 {
-  margin-top: 0 !important;
-  margin-bottom: 0.75rem !important;
-}
 
-#reports [class*="mb-"] { margin-bottom: 1rem !important; }
+/* list wrapper: kill the mt-16/mt-20 gap, match the text column width */
+#reports .container {
+  margin-top: 1rem !important;
+  max-width: calc(65ch - 3rem) !important;
+}
