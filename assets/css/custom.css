@@ -42,15 +42,17 @@
     display: none !important;
 }
 
-/* ================= RESEARCH SECTION ================= */
+/* ========= RESEARCH & TEACHING SECTIONS ========= */
 
-/* the spans control all the spacing */
+/* the spans control the spacing */
 #research p { margin: 0; }
+#teaching p { margin: 0 0 0.4rem; }
 
-/* "Job Market Paper" / "Work in Progress" labels */
-#research .res-label {
+/* labels: "Job Market Paper", "Work in Progress", university names */
+#research .res-label,
+#teaching .res-label {
   display: block;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -59,7 +61,8 @@
   padding-bottom: 0.35rem;
   border-bottom: 1px solid #e5e7eb;
 }
-#research p:first-of-type .res-label { margin-top: 0; }
+#research p:first-of-type .res-label,
+#teaching p:first-of-type .res-label { margin-top: 0; }
 
 /* paper titles */
 #research .paper-title {
@@ -90,4 +93,16 @@
   font-style: italic;
   color: #9ca3af;
   margin-top: 0.2rem;
+}
+
+/* teaching roles and courses */
+#teaching .teach-role {
+  font-weight: 700;
+  color: #0f766e;
+}
+#teaching .teach-course {
+  color: #4b5563;
+}
+#teaching svg {
+  color: #0f766e;
 }
