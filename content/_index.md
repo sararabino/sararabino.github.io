@@ -54,7 +54,7 @@ sections:
 
       <span class="paper-title">Is Social Learning Gendered?</span>
 
-      <span class="paper-authors">Joint with Kobbina Awuah, [Stine Helmke](https://www.econ.uzh.ch/en/people/graduatestudents/helmke.html), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/), [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)</span>
+      <span class="paper-authors">Joint with Kobbina Awuah, [Stine Helmke](https://stinehelmke.github.io/), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/), [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)</span>
 
       <span class="paper-status">Draft coming soon</span>
 
