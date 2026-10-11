@@ -61,6 +61,13 @@ sections:
       <span class="paper-title">How Men and Women Want to Do (and Look) Good: Effective Altruism vs Warm Glow</span>
 
       <span class="paper-status">Piloting stage</span>
+
+      <span class="paper-title">The Effect of Infidelity on Household Resource Allocation in Tanzania</span>
+  
+      <span class="paper-authors">Joint with [Stine Helmke](https://stinehelmke.github.io/)</span>
+
+      <span class="paper-status">Piloting stage</span>
+      
   design:
     columns: "1"
 
