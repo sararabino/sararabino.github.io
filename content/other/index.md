@@ -34,6 +34,7 @@ To calm my nerves
 
 ## Sometimes in color
 
+
 ---
 
 {{< figure src="/uploads/Paint1.jpg" >}}
