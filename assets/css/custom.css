@@ -141,7 +141,8 @@
 
 /* Wine / Sketches headings */
 #wine,
-#sketches {
+#sketches,
+#sometimesincolor{
   font-size: 1.5rem !important;
 }
 
