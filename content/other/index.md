@@ -30,7 +30,7 @@ To calm my nerves
 {{< figure src="/uploads/Sketch_2.jpg" >}}
 {{< figure src="/uploads/Sketch_5.jpg" >}}
 
-Sometimes in color
+## Sometimes in color
 
 ---
 
