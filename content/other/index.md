@@ -28,5 +28,13 @@ To calm my nerves
 {{< figure src="/uploads/Sketch_1.jpg" >}}
 {{< figure src="/uploads/Sketch_6.jpg" >}}
 {{< figure src="/uploads/Sketch_2.jpg" >}}
-{{< figure src="/uploads/Sketch_4.jpg" >}}
 {{< figure src="/uploads/Sketch_5.jpg" >}}
+
+Sometimes in color
+
+---
+
+{{< figure src="/uploads/Paint1.jpg" >}}
+{{< figure src="/uploads/Paint2.jpg" >}}
+{{< figure src="/uploads/Paint3.jpg" >}}
+{{< figure src="/uploads/Paint4.jpg" >}}
