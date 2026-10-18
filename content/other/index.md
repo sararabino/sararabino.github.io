@@ -32,12 +32,12 @@ To calm my nerves
 
 ---
 
-## Sometimes in color
+## Paintings
 
+Sometimes in color
 
 ---
 
 {{< figure src="/uploads/Paint1.jpg" >}}
 {{< figure src="/uploads/Paint2.jpg" >}}
 {{< figure src="/uploads/Paint3.jpg" >}}
-{{< figure src="/uploads/Paint4.jpg" >}}
