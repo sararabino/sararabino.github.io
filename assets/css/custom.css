@@ -74,6 +74,15 @@
   margin-top: 1.1rem;
 }
 
+#research .paper-title a {
+  color: inherit;
+  text-decoration: none;
+}
+#research .paper-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 /* co-authors */
 #research .paper-authors {
   display: block;
