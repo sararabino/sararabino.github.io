@@ -40,7 +40,7 @@ sections:
     text: |
       <span class="res-label">Job Market Paper</span>
 
-      <span class="paper-title">Making a Difference? The Role of Social Impact in College Major Choice</span>
+      <span class="paper-title">[Making a Difference? The Role of Social Impact in College Major Choice](/uploads/Rabino_JMP.pdf)</span>
 
       <span class="paper-authors">Joint with [Ana Brás-Monteiro](https://anabrasmonteiro.com/) and [Samantha Stelnicki](https://sites.google.com/view/samanthastelnicki/home)</span>
 
