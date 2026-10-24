@@ -60,6 +60,10 @@ sections:
 
       <span class="paper-status">Piloting stage</span>
 
+      <details class="wip"><summary></summary>
+      <p>When monetary donations yield the same or even higher social outcome than working directly for the cause, which way of making an impact do people choose, and why? A reason they may not be indifferent is warm glow: the satisfaction of contributing in person, beyond the impact produced. Another is social image, if helping directly signals prosociality in a way that donating does not. Both may operate differently for women, who report stronger preferences for meaningful work and are more often expected to be prosocial. In this experiment, participants choose between two hypothetical jobs: assembling and delivering meals to people in need themselves, or working for pay and donating part or all of the wage to the same non-profit. Using a multiple price list, I vary in the second option the number of meals the donation funds and the private earnings retained, and estimate how these trade-offs differ by gender. To separate warm glow from social image, I randomise whether choices are shown to a sample of spectators, who predict what a man or a woman participant chose and then judge how much that person cares about helping others.</p>
+      </details>
+
       <span class="paper-title">The Effect of Infidelity on Household Resource Allocation in Tanzania</span>
   
       <span class="paper-authors">Joint with [Stine Helmke](https://stinehelmke.github.io/)</span>
