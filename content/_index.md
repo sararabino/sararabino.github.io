@@ -44,7 +44,8 @@ sections:
 
       <span class="paper-authors">Joint with [Ana Brás-Monteiro](https://anabrasmonteiro.com/) and [Samantha Stelnicki](https://sites.google.com/view/samanthastelnicki/home)</span>
 
-      <details class="abstract"><summary>Abstract</summary>
+      <details class="wip">
+      <summary><span class="paper-status">Draft October 2026</span></summary>
       <p>Work is not only a means of earning a living, it can also be a source of meaning through the contribution people feel they make to society. Because the choice of academic major largely shapes future career paths, we ask: do students hold accurate perceptions of how fulfilling different fields are in terms of social impact, and how do these perceptions shape major choices? We address these questions through a survey experiment at a large U.S. public university. We find that students substantially underestimate how satisfied previous graduates report being with their contribution, with significant heterogeneity in the extent of underestimation by field. These beliefs are consistent with stereotyping: students believe that graduates in fields such as Health and Social Sciences are much more likely to be satisfied with their contribution than graduates in Physics &amp; Mathematics or Computer Science, while nationally representative data on college graduates shows the gap is much smaller. We show that randomly providing information on previous graduates' experiences of impact across all fields significantly shifts students' perceptions, with revisions proportional to their initial misperceptions. These revised beliefs lead students who value social contribution to recommend a broader set of majors to like-minded peers. We see more limited effects on students' intentions and class enrollment, with significant changes in intentions only among women, who value social impact most and shift toward fields whose social impact they had underestimated.</p>
       </details>
   
@@ -54,8 +55,11 @@ sections:
 
       <span class="paper-authors">Joint with Kobbina Awuah, [Stine Helmke](https://stinehelmke.github.io/), [Rafael Hernández-Pachón](https://sites.google.com/view/rafaelhernandezpachon), [Urša Krenk](https://ursakrenk.com/), [Daniela Santos Cárdenas](https://www.danielasantoscardenas.com/), and [David Yanagizawa-Drott](https://yanagizawadrott.com/)</span>
 
-      <span class="paper-status">Draft coming soon</span>
-
+      <details class="wip">
+      <summary><span class="paper-status">Data collection complete</span></summary>
+      <p>We ask whether individuals’ economic decisions are influenced by the average behavior of peers with similar economic characteristics, and whether this response depends on gender: do women respond more strongly to information about other similar women’s choices, and men to information about other similar men’s? To answer these questions, we partner with a microfinance institution in Kenya, a setting with substantial gender gaps in credit demand. We embed an experiment in the institution’s routine loan-application phone call. Applicants are randomly assigned to hear the average amount requested by a random sample of similar past borrowers (same area, age bracket, and sector). Depending on the treatment arm, this sample consists of male borrowers, female borrowers, or borrowers in general, with no gender specified. We estimate the causal effect of each type of information on applicants’ final requested amounts, as well as on the amounts later granted and repaid.</p>
+      </details>
+  
       <span class="paper-title">How Men and Women Want to Do (and Look) Good: Effective Altruism vs Warm Glow</span>
 
       <details class="wip">
