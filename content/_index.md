@@ -57,7 +57,7 @@ sections:
 
       <details class="wip">
       <summary><span class="paper-status">Data collection complete</span></summary>
-      <p>We ask whether individuals’ economic decisions are influenced by the average behavior of peers with similar economic characteristics, and whether this response depends on gender: do women respond more strongly to information about other similar women’s choices, and men to information about other similar men’s? To answer these questions, we partner with a microfinance institution in Kenya, a setting with substantial gender gaps in credit demand. We embed an experiment in the institution’s routine loan-application phone call. Applicants are randomly assigned to hear the average amount requested by a random sample of similar past borrowers (same area, age bracket, and sector). Depending on the treatment arm, this sample consists of male borrowers, female borrowers, or borrowers in general, with no gender specified. We estimate the causal effect of each type of information on applicants’ final requested amounts, as well as on the amounts later granted and repaid.</p>
+      <p>We ask whether individuals’ economic decisions are influenced by the average behavior of peers with similar economic characteristics, and whether this response depends on gender: do women respond more strongly to information about other similar women’s choices, and men to information about other similar men’s? To answer these questions, we partner with a microfinance institution in Kenya, a setting with substantial gender gaps in credit demand. We embed an experiment in the institution’s routine loan-application phone call. Applicants are randomly assigned to hear the average amount requested by a random sample of similar past borrowers (same area, age bracket, and sector). Depending on the treatment arm, this sample consists of male borrowers, female borrowers, or borrowers in general, with no gender specified. We estimate the causal effect of each type of information on applicants’ final requested amounts, as well as on the amounts later granted and repaid. Preliminary results show that information about the amount others requested shifts credit demand and that, conditional on the amount communicated, both women and men respond more strongly to information about peers of their own gender.</p>
       </details>
   
       <span class="paper-title">How Men and Women Want to Do (and Look) Good: Effective Altruism vs Warm Glow</span>
@@ -68,10 +68,13 @@ sections:
       </details>
 
       <span class="paper-title">The Effect of Infidelity on Household Resource Allocation in Tanzania</span>
-  
       <span class="paper-authors">Joint with [Stine Helmke](https://stinehelmke.github.io/)</span>
 
-      <span class="paper-status">Piloting</span>
+      <details class="wip">
+      <summary><span class="paper-status">Piloting</span></summary>
+      <p>Infidelity is widespread in Sub-Saharan Africa, especially among men. We study the relationship between infidelity and resource allocation between spouses: when wives expect their husbands to be unfaithful, do they share less of their resources with their husbands, or more? And does the prospect of wives gaining control over resources affect husbands' infidelity? We investigate these questions in three experiments in Dar es Salaam, Tanzania. First, we use a list experiment to measure the prevalence of infidelity in local communities. Second, we run an experiment with wives, where we provide randomized information about local infidelity rates and let them choose how to split a one-year income subsidy between themselves and their husbands. Third, we run an experiment with husbands, where we inform a random sample that their wife may receive an income subsidy of varying size in the future. Six months later, we measure their infidelity through private reports from their wives.</p>
+      </details>
+
       
   design:
     columns: "1"
