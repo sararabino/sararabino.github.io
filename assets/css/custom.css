@@ -186,3 +186,39 @@ img[src^="/uploads/"] {
   color: #4b5563;
   text-align: justify;
 }
+
+/* work in progress: click to expand */
+#research details.wip { margin-top: 0.1rem; }
+
+#research details.wip summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 1px solid #0f766e;
+  border-radius: 999px;
+  color: #0f766e;
+  font-size: 0.6rem;
+  line-height: 1;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+#research details.wip summary::-webkit-details-marker { display: none; }
+#research details.wip summary::before { content: "▼"; }
+#research details.wip[open] summary::before { content: "▲"; }
+
+#research details.wip summary:hover {
+  background: #0f766e;
+  color: #fff;
+}
+
+#research details.wip p {
+  margin: 0.7rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #0f766e;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4b5563;
+}
