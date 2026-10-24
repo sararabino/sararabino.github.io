@@ -83,7 +83,7 @@ sections:
 
       <span class="res-label">Bocconi University</span>
 
-      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">Computer Science, BA (2016–2020)</span>
+      {{< icon name="academic-cap" pack="hero" >}} <span class="teach-role">Teaching Assistant</span> <span class="teach-course">IT Education Center, BA (2016–2020)</span>
   design:
     columns: '1'
 
