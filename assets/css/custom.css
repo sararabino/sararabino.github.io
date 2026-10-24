@@ -193,6 +193,16 @@ img[src^="/uploads/"] {
 #research details.wip summary {
   cursor: pointer;
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+#research details.wip summary::-webkit-details-marker { display: none; }
+#research details.wip summary .paper-status { margin-top: 0; }
+
+#research details.wip summary::before {
+  content: "▼";
+  flex: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -205,11 +215,9 @@ img[src^="/uploads/"] {
   line-height: 1;
   transition: background 0.15s ease, color 0.15s ease;
 }
-#research details.wip summary::-webkit-details-marker { display: none; }
-#research details.wip summary::before { content: "▼"; }
 #research details.wip[open] summary::before { content: "▲"; }
 
-#research details.wip summary:hover {
+#research details.wip summary:hover::before {
   background: #0f766e;
   color: #fff;
 }
