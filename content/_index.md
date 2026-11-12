@@ -71,7 +71,7 @@ sections:
       <span class="paper-authors">Joint with [Stine Helmke](https://stinehelmke.github.io/)</span>
 
       <details class="wip">
-      <summary><span class="paper-status">Piloting</span></summary>
+      <summary><span class="paper-status">In progress</span></summary>
       <p>Infidelity is widespread in Sub-Saharan Africa, especially among men. We study the relationship between infidelity and resource allocation between spouses: when wives expect their husbands to be unfaithful, do they share less of their resources with their husbands, or more? And does the prospect of wives gaining control over resources affect husbands' infidelity? We investigate these questions in three experiments in Dar es Salaam, Tanzania. First, we use a list experiment to measure the prevalence of infidelity in local communities. Second, we run an experiment with wives, where we provide randomized information about local infidelity rates and let them choose how to split a one-year income subsidy between themselves and their husbands. Third, we run an experiment with husbands, where we inform a random sample that their wife may receive an income subsidy of varying size in the future. Six months later, we measure their infidelity through private reports from their wives.</p>
       </details>
 
